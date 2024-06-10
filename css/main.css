@@ -2,3 +2,18 @@
 @import url("button.css");
 @import url("font.css");
 @import url("text.css");
+@import url("topnav.css");
+
+.wrapper {
+	padding-left: 50px;
+	padding-top: 50px;
+}
+@media screen and (max-width: 768px) {
+	body {
+		background-repeat: no-repeat;
+		background-color: #e4f7f7;
+	}
+	.topnav {
+		display: none;
+	}
+}

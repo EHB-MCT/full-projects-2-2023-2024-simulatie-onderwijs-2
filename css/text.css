@@ -1,6 +1,6 @@
 h1 {
 	color: #246cc0;
-	font-size: 70px;
+	font-size: 45px;
 	font-family: "outfit", bold;
 }
 
@@ -14,4 +14,14 @@ p {
 	font-size: 20px;
 	color: black;
 	font-family: "outfit";
+}
+
+a {
+	color: black;
+	font-size: 35px;
+	font-family: "outfit", bold;
+}
+
+.wrapper.title-text p {
+	padding-top: 50px;
 }
