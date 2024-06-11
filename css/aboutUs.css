@@ -9,8 +9,8 @@
 		padding-top: 20px;
 	}
 
-	.we-are h1 {
-		padding-top: 50px;
+	.we-are h4 {
+		padding-top: 80px;
 	}
 
 	.we-do {
@@ -30,6 +30,7 @@
 
 	.we-stand {
 		padding-top: 100px;
+		text-align: center;
 	}
 
 	.we-stand img {
@@ -44,11 +45,18 @@
 		padding-top: 30px;
 	}
 
-	.waarden h5 {
-		text-align: center;
+	.missie h5 {
+		padding-bottom: 5px;
+		padding-top: 10px;
 	}
 
-    .visie h5 {
-        text-align: center;
-    }
+	.visie h5 {
+		padding-bottom: 5px;
+		padding-top: 10px;
+	}
+
+	.waarden h5 {
+		padding-bottom: 5px;
+		padding-top: 10px;
+	}
 }
