@@ -6,7 +6,7 @@
 		padding-left: 30px;
 		padding-right: 30px;
 		padding-top: 50px;
-        padding-bottom: 70px;
+		padding-bottom: 70px;
 	}
 	body {
 		margin: 0;
@@ -53,8 +53,8 @@
 		border-radius: 10px;
 		background-color: white;
 		padding: 28px 30px;
+		width: auto;
 	}
-
 	.research-banner p {
 		font-size: 12px;
 	}
