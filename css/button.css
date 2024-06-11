@@ -1,4 +1,4 @@
-.button a {
+.button-1 a {
 	text-decoration: none;
 	color: white;
 	font-size: 20px;
@@ -9,7 +9,23 @@
 	padding: 12px 30px;
 }
 
-.button a:hover {
+.button-3 a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	border-radius: 60px;
+	background-color: black;
+	transition: background-color 0.5s;
+	transition-timing-function: ease;
+	padding: 12px 30px;
+}
+
+.button-1 a:hover {
+	background-color: #fff8c2;
+	color: black;
+}
+
+.button-3 a:hover {
 	background-color: #fff8c2;
 	color: black;
 }
@@ -27,14 +43,9 @@ li {
 	transition: background-color 0.5s;
 	transition-timing-function: ease;
 	padding: 12px 20px;
-
 }
 
 .button-2 a:hover {
 	background-color: #fff8c2;
 	color: black;
 }
-
-
-
-
