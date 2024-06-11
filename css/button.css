@@ -31,6 +31,16 @@
 	padding: 12px 30px;
 }
 
+.button-5 a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	border-radius: 60px;
+	background-color: black;
+	transition: background-color 0.5s;
+	transition-timing-function: ease;
+	padding: 12px 30px;
+}
 
 .button-1 a:hover {
 	background-color: #fff8c2;
@@ -47,6 +57,10 @@
 	color: black;
 }
 
+.button-5 a:hover {
+	background-color: #fff8c2;
+	color: black;
+}
 li {
 	text-decoration: none;
 }
