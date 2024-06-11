@@ -1,27 +1,35 @@
-h1 {
-	color: #246cc0;
-	font-size: 45px;
-	font-family: "outfit", bold;
-}
+@media screen and (max-width: 768px) {
+	h1 {
+		color: #246cc0;
+		font-size: 45px;
+		font-family: "Outfit", sans-serif;
+		font-weight: bold;
+	}
 
-h2 {
-	color: black;
-	font-size: 35px;
-	font-family: "outfit", bold;
-}
+	h2 {
+		color: black;
+		font-size: 18px;
+		font-family: "Outfit", sans-serif;
+		font-weight: bold;
+	}
 
-p {
-	font-size: 20px;
-	color: black;
-	font-family: "outfit";
-}
+	p {
+		font-size: 20px;
+		color: black;
+		font-family: "Outfit", sans-serif;
+	}
 
-a {
-	color: black;
-	font-size: 35px;
-	font-family: "outfit", bold;
-}
+	a {
+		color: black;
+		font-size: 35px;
+		font-family: "Outfit", sans-serif;
+		font-weight: bold;
+	}
 
-.wrapper.title-text p {
-	padding-top: 50px;
+	h3 {
+		color: black;
+		font-size: 15px;
+		font-family: "Outfit", sans-serif;
+		font-weight: bold;
+	}
 }
