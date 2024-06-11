@@ -1,11 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Zoek een topic">
+    </div>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <title>Zoek een topic</title>
+    <style>
+   
+
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .search-bar {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body>
-    
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <a href="index.html"><li>Home</li></a>
+                <a href="OverOns.html"><li>Over Ons</li></a>
+                <a href="events.html"><li>Events</li></a>
+                <a href="educatie.html"><li>Educatie</li></a>
+                <a href="forum.html" target="_blank"><li>Forum</li></a>
+                <a href="contact.html" target="_blank"><li>Contact</li></a>
+                <a href="login.html" target="_blank"><li>Login</li></a>
+            </ul>
+        </div>
+    </nav>
+    <div class="topnav">
+        <ul>
+            <li><a href="index.html" class="logo">NSH</a></li>
+            <li><a href="OverOns.html">Over Ons</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="educatie.html">Educatie</a></li>
+            <li><a href="forum.html">Forum</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Log In</a></li>
+        </ul>
+    </div>
+    <header>
+        <div class="wrapper">
+            <div class="forum">
+                <h4>Welkom op onwe discussie form</h4>
+            </div>
+        </div>
+    </header>
+    <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Zoek een topic">
+    </div>
+    <script src="js/index.js"></script>
 </body>
 </html>
