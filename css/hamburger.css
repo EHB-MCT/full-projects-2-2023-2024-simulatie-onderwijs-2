@@ -22,7 +22,7 @@
 	}
 
 	#menuToggle a:hover {
-		color: tomato;
+		color: #fff8c2;
 	}
 
 	#menuToggle input {
@@ -82,7 +82,7 @@
 	/* Make this fixed positioned at the top right of the screen */
 	#menu {
 		position: fixed;
-		width: 290px;
+		width: 80%;
 		top: 0;
 		right: 0; /* Changed from margin to right positioning */
 		padding: 50px;
