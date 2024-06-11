@@ -17,3 +17,24 @@
 li {
 	text-decoration: none;
 }
+
+.button-2 a {
+	text-decoration: none;
+	color: white;
+	font-size: 10px;
+	border-radius: 30px;
+	background-color: black;
+	transition: background-color 0.5s;
+	transition-timing-function: ease;
+	padding: 12px 20px;
+
+}
+
+.button-2 a:hover {
+	background-color: #fff8c2;
+	color: black;
+}
+
+
+
+
