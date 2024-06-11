@@ -1,4 +1,11 @@
 /* Default styles for desktop - hide the hamburger menu */
+.navigationlogo h1 {
+	color: #246cc0;
+	font-size: 45px;
+	font-family: "Outfit", sans-serif;
+	font-weight: bolder;
+}
+
 #menuToggle {
 	display: none;
 }
