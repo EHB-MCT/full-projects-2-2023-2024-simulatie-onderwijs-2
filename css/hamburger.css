@@ -1,5 +1,6 @@
 /* Default styles for desktop - hide the hamburger menu */
 .navigationlogo h1 {
+	padding: 10px;
 	color: #246cc0;
 	font-size: 45px;
 	font-family: "Outfit", sans-serif;
@@ -52,12 +53,11 @@
 		height: 4px;
 		margin-bottom: 5px;
 		position: relative;
-		background: #cdcdcd;
+		background: black;
 		border-radius: 3px;
 		z-index: 1;
 		transform-origin: 4px 0px;
-		transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-			background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+		transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 	}
 
 	#menuToggle span:first-child {
@@ -89,7 +89,7 @@
 	/* Make this fixed positioned at the top right of the screen */
 	#menu {
 		position: fixed;
-		width: 80%;
+		width: 100%;
 		top: 0;
 		right: 0; /* Changed from margin to right positioning */
 		padding: 50px;
