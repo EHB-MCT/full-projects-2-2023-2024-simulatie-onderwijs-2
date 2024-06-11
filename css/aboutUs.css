@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px) {
+	.we-are img {
+		padding-top: 20px;
+		width: 40%;
+		border-radius: 15%;
+	}
+
+	.we-are p {
+		padding-top: 20px;
+	}
+
+	.we-are h1 {
+		padding-top: 50px;
+	}
+
+	.we-do {
+		padding-top: 15px;
+		margin-left: 70px;
+	}
+
+	.we-do p {
+		margin-top: 20px;
+	}
+
+	.we-do img {
+		width: 75%;
+		padding-top: 20px;
+		border-radius: 15%;
+	}
+
+	.we-stand {
+		padding-top: 100px;
+	}
+
+	.we-stand img {
+		width: 20%;
+	}
+
+	.visie img {
+		padding-top: 30px;
+	}
+
+	.waarden img {
+		padding-top: 30px;
+	}
+
+	.waarden h5 {
+		text-align: center;
+	}
+
+    .visie h5 {
+        text-align: center;
+    }
+}

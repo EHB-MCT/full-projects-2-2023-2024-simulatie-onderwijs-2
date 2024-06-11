@@ -14,7 +14,7 @@
 	}
 
 	p {
-		font-size: 20px;
+		font-size: 15px;
 		color: black;
 		font-family: "Outfit", sans-serif;
 	}
@@ -31,5 +31,20 @@
 		font-size: 15px;
 		font-family: "Outfit", sans-serif;
 		font-weight: bold;
+	}
+
+	h4 {
+		color: #246cc0;
+		font-size: 30px;
+		font-family: "Outfit", sans-serif;
+		font-weight: bold;
+	}
+
+	h5 {
+		color: black;
+		font-size: 20px;
+		font-family: "Outfit", sans-serif;
+		font-weight: bold;
+
 	}
 }
