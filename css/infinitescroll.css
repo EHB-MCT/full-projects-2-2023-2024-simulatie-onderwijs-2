@@ -1,3 +1,108 @@
+@media screen and (max-width: 768px) {
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
+	}
+
+	* {
+		margin: 0;
+	}
+
+	.scrollwrapper {
+		width: 100%;
+		max-width: 1536px;
+		margin: 0;
+		position: relative;
+		height: 150px;
+		overflow: hidden;
+		mask-image: linear-gradient(
+			to right,
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 1) 20%,
+			rgba(0, 0, 0, 1) 80%,
+			rgba(0, 0, 0, 0)
+		);
+	}
+
+	@keyframes scrollLeft {
+		to {
+			left: -100%;
+		}
+	}
+
+	.item {
+		width: 100px;
+		height: 100px;
+		background-color: NONE;
+		border-radius: 20px;
+		position: absolute;
+		left: max(calc(90px * 11), 100%);
+		animation-name: scrollLeft;
+		animation-duration: 20s;
+		animation-timing-function: linear;
+		animation-iteration-count: infinite;
+		background-size: contain; /* Resize images to fit within the element */
+		background-repeat: no-repeat; /* Prevent image repetition */
+	}
+
+	.item1 {
+		animation-delay: calc(20s / 11 (1 - 1) * -1);
+		background-image: url("images/vives.png");
+	}
+
+	.item2 {
+		animation-delay: calc(20s / 11 (2 - 1) * -1);
+		background-image: url("images/ucll.png");
+	}
+
+	.item3 {
+		animation-delay: calc(20s / 11 (3 - 1) * -1);
+		background-image: url("images/EhB-logo-transparant.png");
+	}
+
+	.item4 {
+		animation-delay: calc(20s / 11 * (4 - 1) * -1);
+		background-image: url("images/HOGENT_Logo_Pos_rgb.png");
+	}
+
+	.item5 {
+		animation-delay: calc(20s / 11 * (5 - 1) * -1);
+		background-image: url("images/ARTEVELDE.png");
+	}
+
+	.item6 {
+		animation-delay: calc(20s / 11 * (6 - 1) * -1);
+		background-image: url("images/ap.png");
+	}
+
+	.item7 {
+		animation-delay: calc(20s / 11 * (7 - 1) * -1);
+		background-image: url("images/Howest_hogeschool-logo_RGB-BLAUW.png");
+	}
+
+	.item8 {
+		animation-delay: calc(20s / 11 * (8 - 1) * -1);
+		background-image: url("images/thomas.png");
+	}
+
+	.item9 {
+		animation-delay: calc(20s / 11 * (9 - 1) * -1);
+		background-image: url("images/pxl.png");
+	}
+
+	.item10 {
+		animation-delay: calc(20s / 11 * (10 - 1) * -1);
+		background-image: url("images/Odisee_Logo_Co-hogeschool.png");
+	}
+
+	.item11 {
+		animation-delay: calc(20s / 11 * (11 - 1) * -1);
+		background-image: url("images/ap.png");
+	}
+}
+
+/*VOOR DESKTOP*/
 *,
 *::before,
 *::after {
