@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<script src="js/index.js"></script>
+
+<head>
+	<link href="css/reset.css" rel="stylesheet" />
+	<link href="css/main.css" rel="stylesheet" />
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+	<nav role="navigation">
+		<div class="navigationlogo">
+			<h1>NSH</h1>
+		</div>
+		<div id="menuToggle">
+			<input type="checkbox" />
+
+			<span></span>
+			<span></span>
+			<span></span>
+
+			<ul id="menu">
+				<a href="index.html"><li>Home</li></a>
+				<a href="OverOns.html"><li>Over Ons</li></a>
+				<a href="events.html"><li>Events</li></a>
+				<a href="educatie.html"><li>Educatie</li></a>
+				<a href="forum.html" target="_blank"><li>Forum</li></a>
+				<a href="contact.html" target="_blank"><li>Contact</li></a>
+				<a href="login.html" target="_blank"><li>Login</li></a>
+			</ul>
+		</div>
+	</nav>
+	<div class="topnav">
+		<ul>
+			<li><a href="index.html" class="logo">NSH</a></li>
+			<li><a href="OverOns.html">Over Ons</a></li>
+			<li><a href="events.html">Events</a></li>
+			<li><a href="educatie.html">Educatie</a></li>
+			<li><a href="forum.html">Forum</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="login.html">Log In</a></li>
+		</ul>
+	</div>
+	<header>
+		<div class="titel">
+			<h4>Contacteer Ons</h4>
+		</div>
+		<div class="wrapper">
+			<form class="form-box" action="#">
+				<div class="input-box">
+					<label>Voor-en achternaam*</label>
+					<input type="text" required id="naam" />
+				</div>
+				<div class="input-box">
+					<label>E-mail*</label>
+					<input type="text" required id="Email" />
+				</div>
+				<div class="input-box">
+					<label>Telefoon(optioneel)</label>
+					<input type="text" required id="Telefoon" />
+				</div>
+				<div class="input-box">
+					<label>Bericht*</label>
+					<input type="text" id="Bericht" />
+				</div>
+				<div class="Accept politicy">
+					<label><input type="checkbox" />Accept politicy</label>
+				</div>
+				<button type="submit" class="btn">Stuur een bericht</button>
+			</form>
+		</div>
+	</header>
+</body>

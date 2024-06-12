@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #e4f7f7;
+	font-family: "Outfit", sans-serif;
+}
+
 @media screen and (max-width: 768px) {
 	h1 {
 		color: #246cc0;
