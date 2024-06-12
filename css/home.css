@@ -2,6 +2,9 @@
 	.title h1 {
 		padding-top: 50px;
 	}
+	.title p {
+		padding-left: 50px;
+	}
 	.wrapper {
 		padding-left: 30px;
 		padding-right: 30px;
