@@ -5,10 +5,8 @@
 	padding-left: 50px;
 }
 .wrapper {
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 50px;
-	padding-bottom: 70px;
+	padding-left: 90px;
+	padding-right: 90px;
 }
 h1 {
 	color: #246cc0;
@@ -21,9 +19,7 @@ body {
 	padding: 0;
 	background-repeat: no-repeat;
 	background-color: #e4f7f7;
-}
-.topnav {
-	display: none;
+	background-image: url("/css/images/educatiescholen-desktop-background.png");
 }
 
 .button-1 {
@@ -103,8 +99,12 @@ body {
 		margin: 0;
 		padding: 0;
 		background-repeat: no-repeat;
+		background-size: cover; /* Makes the background image cover the entire viewport */
+		background-position: center; /* Centers the background image */
+		background-attachment: relative; /* Keeps the background fixed during scrolling */
 		background-color: #e4f7f7;
 	}
+
 	.topnav {
 		display: none;
 	}

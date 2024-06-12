@@ -138,10 +138,10 @@
 .item {
 	width: 100px;
 	height: 100px;
-	background-color: NONE;
+	background-color: none;
 	border-radius: 20px;
 	position: absolute;
-	left: max(calc(90px * 11), 100%);
+	left: max(calc(55px * 11), 100%); /* Further reduced distance between items */
 	animation-name: scrollLeft;
 	animation-duration: 20s;
 	animation-timing-function: linear;
@@ -151,17 +151,17 @@
 }
 
 .item1 {
-	animation-delay: calc(20s / 11 (1 - 1) * -1);
+	animation-delay: calc(20s / 11 * (1 - 1) * -1);
 	background-image: url("images/vives.png");
 }
 
 .item2 {
-	animation-delay: calc(20s / 11 (2 - 1) * -1);
+	animation-delay: calc(20s / 11 * (2 - 1) * -1);
 	background-image: url("images/ucll.png");
 }
 
 .item3 {
-	animation-delay: calc(20s / 11 (3 - 1) * -1);
+	animation-delay: calc(20s / 11 * (3 - 1) * -1);
 	background-image: url("images/EhB-logo-transparant.png");
 }
 
