@@ -1,10 +1,15 @@
 /* Default styles for desktop - hide the hamburger menu */
-.navigationlogo h1 {
-	padding: 20px;
+.navigationlogo a {
+	text-decoration: none;
+
 	color: #246cc0;
 	font-size: 30px;
 	font-family: "Outfit", sans-serif;
 	font-weight: bold;
+}
+.navigationlogo h1 {
+	padding: 5px;
+	padding-left: 30px;
 }
 
 #menuToggle {
