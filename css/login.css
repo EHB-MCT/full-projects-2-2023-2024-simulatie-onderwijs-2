@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #e4f7f7;
+	font-family: "Outfit", sans-serif;
+}
+
+.navbar {
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+}
+
+.navbar .logo {
+	display: flex;
+	align-items: center;
+	color: #246cc0;
+	font-weight: bold;
+	font-size: 25px;
+	margin-left: 140px;
+}
+
+.navbar .logo a {
+	text-decoration: none;
+	color: #246cc0;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	align-items: end;
+	margin-right: 140px;
+}
+
+.navbar li {
+	padding: 14px 20px;
+}
+
+.navbar li a {
+	color: black;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.navbar ul li:nth-child(6) {
+	text-decoration: underline;
+}
+
+.navbar li a .icoonlogin {
+	margin-right: 8px;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	margin: 100px 140px;
+}
+
+.left-img img {
+	width: 75%;
+	border-radius: 15%;
+	height: auto;
+}
+
+.login-title {
+	color: #246cc0;
+	font-weight: bold;
+}
+
+.input-fields {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.input-fields a {
+	color: black;
+}
+
+.input-fields input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 30px;
+	box-sizing: border-box;
+}
+
+.buttons {
+	display: flex;
+	gap: 20px;
+}
+
+.button-login {
+	padding: 10px 20px;
+	background-color: black;
+	color: white;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.button-login:hover {
+	background-color: #fff8c2;
+	transition: 0.4s;
+	color: black;
+}
