@@ -1,19 +1,40 @@
 .search-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .search-bar {
-    width: 300px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    align-items: center;
+	margin-top: 25px;
+	width: 300px;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	align-items: center;
+}
 
+.wrapperForum {
+	padding-top: 100px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.forum {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.forum h4 {
+	color: #246cc0;
+	font-size: 50px;
+	font-family: "Outfit", sans-serif;
+	font-weight: bold;
 }
