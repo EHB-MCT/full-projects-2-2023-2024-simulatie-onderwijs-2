@@ -1,4 +1,17 @@
 /* Default styles for desktop - hide the hamburger menu */
+.navigationlogo a {
+	text-decoration: none;
+
+	color: #246cc0;
+	font-size: 30px;
+	font-family: "Outfit", sans-serif;
+	font-weight: bold;
+}
+.navigationlogo h1 {
+	padding: 5px;
+	padding-left: 30px;
+}
+
 #menuToggle {
 	display: none;
 }
@@ -45,7 +58,7 @@
 		height: 4px;
 		margin-bottom: 5px;
 		position: relative;
-		background: #cdcdcd;
+		background: black;
 		border-radius: 3px;
 		z-index: 1;
 		transform-origin: 4px 0px;
@@ -82,7 +95,7 @@
 	/* Make this fixed positioned at the top right of the screen */
 	#menu {
 		position: fixed;
-		width: 80%;
+		width: 100%;
 		top: 0;
 		right: 0; /* Changed from margin to right positioning */
 		padding: 50px;
