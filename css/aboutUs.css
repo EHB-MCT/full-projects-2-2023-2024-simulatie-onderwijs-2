@@ -15,8 +15,12 @@
 
 	.we-do {
 		padding-top: 15px;
-		margin-left: 70px;
+		margin-left: 120px;
 	}
+
+    .we-do h4{
+        padding-top: 30px;
+    }
 
 	.we-do p {
 		margin-top: 20px;
@@ -59,4 +63,8 @@
 		padding-bottom: 5px;
 		padding-top: 10px;
 	}
+
+    .button-4 {
+        margin-top: 60px;
+    }
 }
