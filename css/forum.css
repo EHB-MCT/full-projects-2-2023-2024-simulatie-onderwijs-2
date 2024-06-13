@@ -239,6 +239,9 @@
 .tipstext p {
 	margin-bottom: 25px;
 }
+footer {
+	padding-top: 90px;
+}
 
 @media screen and (max-width: 768px) {
 	.buttons-topics {
@@ -276,4 +279,4 @@
 		color: #246cc0;
 		text-decoration: none;
 	}
-}
+

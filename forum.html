@@ -1,268 +1,457 @@
 <!DOCTYPE html>
 <script src="js/index.js"></script>
 
-<header>
+<head>
 	<link href="css/reset.css" rel="stylesheet" />
 	<link href="css/main backup.css" rel="stylesheet" />
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
 
-</header>
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+	/>
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap"
+		rel="stylesheet"
+	/>
+
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+	/>
+</head>
 <body>
-	
+	<header>
+		<div class="wrapper">
+			<nav role="navigation">
+				<div class="navigationlogo mobile">
+					<h1><a href="index.html">NSH</a></h1>
+				</div>
+				<div id="menuToggle">
+					<input type="checkbox" />
 
-	<div class="wrapper">
-		<nav role="navigation">
-			<div class="navigationlogo mobile">
-				<h1><a href="index.html">NSH</a></h1>
-			</div>
-			<div id="menuToggle">
-				<input type="checkbox" />
-	
-				<span></span>
-				<span></span>
-				<span></span>
-	
-				<ul id="menu" class="hamburgermenu">
-					<a href="index.html"><li>Home</li></a>
-					<a href="OverOns.html"><li>Over Ons</li></a>
-					<a href="events.html"><li>Events</li></a>
-					<a href="educatie.html"><li>Educatie</li></a>
-					<a href="forum.html" target="_blank"><li>Forum</li></a>
-					<a href="contact.html" target="_blank"><li>Contact</li></a>
-					<a href="login.html" target="_blank"
-						><li>Login <i class="icoonlogin fas fa-user"></i></li
-					></a>
+					<span></span>
+					<span></span>
+					<span></span>
+
+					<ul id="menu" class="hamburgermenu">
+						<a href="index.html"><li>Home</li></a>
+						<a href="OverOns.html"><li>Over Ons</li></a>
+						<a href="events.html"><li>Events</li></a>
+						<a href="educatie.html"><li>Educatie</li></a>
+						<a href="forum.html" target="_blank"><li>Forum</li></a>
+						<a href="contact.html" target="_blank"><li>Contact</li></a>
+						<a href="login.html" target="_blank"
+							><li>Login <i class="icoonlogin fas fa-user"></i></li
+						></a>
+					</ul>
+				</div>
+			</nav>
+			<div class="topnav">
+				<div class="navigationlogo noMobile">
+					<h1><a href="index.html">NSH</a></h1>
+				</div>
+				<ul>
+					<li><a href="OverOns.html">Over Ons</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="educatie.html">Educatie</a></li>
+					<li><a href="forum.html">Forum</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li>
+						<a href="login.html"
+							>Log In <i class="icoonlogin fas fa-user"></i
+						></a>
+					</li>
 				</ul>
 			</div>
-		</nav>
-		<div class="topnav">
-			<div class="navigationlogo noMobile">
-				<h1><a href="index.html">NSH</a></h1>
-			</div>
-			<ul>
-				<li><a href="OverOns.html">Over Ons</a></li>
-				<li><a href="events.html">Events</a></li>
-				<li><a href="educatie.html">Educatie</a></li>
-				<li><a href="forum.html">Forum</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li>
-					<a href="login.html"
-						>Log In <i class="icoonlogin fas fa-user"></i
-					></a>
-				</li>
-			</ul>
-		</div>
-		<div class="forum">
-			<h4>Welkom op onze discussieform</h4>
-			<div class="search-container">
-				<input type="text" class="search-bar" placeholder="Zoek een topic..." />
-				<svg width="38.5px" height="38.5px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-					<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-					<g id="SVGRepo_iconCarrier">
-						<path
-							d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
-							stroke="#000000"
-							stroke-width="2"
+			<div class="forum">
+				<h4>Welkom op onze discussieform</h4>
+				<div class="search-container">
+					<input
+						type="text"
+						class="search-bar"
+						placeholder="Zoek een topic..."
+					/>
+					<svg
+						width="38.5px"
+						height="38.5px"
+						viewBox="0 0 24 24"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+						<g
+							id="SVGRepo_tracerCarrier"
 							stroke-linecap="round"
 							stroke-linejoin="round"
-						></path>
-					</g>
-				</svg>
-			</div>
-		</div>
-		<div class="buttons-topics">
-			<div class="left-buttons">
-				<div class="button-2 a">
-					<a href="#">Start nieuwe discussie</a>
-				</div>
-				<select>
-					<option>Nieuwste eerst</option>
-					<option>Nieuwste eerst</option>
-					<option>Nieuwste eerst</option>
-					<option>Nieuwste eerst</option>
-					<option>Nieuwste eerst</option>
-				</select>
-			</div>
-			<div class="right-topics">
-				<h2>Hot topics</h2>
-				<div class="topics">
-					<div class="onderwerp">
-						<p>Onderwerpen</p>
-						<p>Berichten</p>
-					</div>
-					<div class="topic1">
-						<a href="#"><p>1. Waarom is simulatie belangrijk?</p></a>
-						<p>404</p>
-					</div>
-					<div class="topic2">
-						<a href="#"><p>2. Waarom is simulatie belangrijk?</p></a>
-						<p>404</p>
-					</div>
-					<div class="topic3">
-						<a href="#"><p>3. Waarom is simulatie belangrijk?</p></a>
-						<p>404</p>
-					</div>
+						></g>
+						<g id="SVGRepo_iconCarrier">
+							<path
+								d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
+								stroke="#000000"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							></path>
+						</g>
+					</svg>
 				</div>
 			</div>
-		</div>
-		<div class="posts">
-			<div class="post">
-				<div class="left-image-user">
-					<img src="/css/images/man_docent.jpg" alt="docent" />
+			<div class="buttons-topics">
+				<div class="left-buttons">
+					<div class="button-2 a">
+						<a href="#">Start nieuwe discussie</a>
+					</div>
+					<select>
+						<option>Nieuwste eerst</option>
+						<option>Nieuwste eerst</option>
+						<option>Nieuwste eerst</option>
+						<option>Nieuwste eerst</option>
+						<option>Nieuwste eerst</option>
+					</select>
 				</div>
-				<div class="right-info">
-					<h3>Hoe werkt een simulatie?</h3>
-					<p>Het voordeel van simulatieonderwijs is dat de complexiteit van de situatie realistisch wordt voorgesteld en dat de leersituatie veilig is.</p>
-					<div class="date-comments">
-						<div class="date">
-							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-								<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-								<g id="SVGRepo_iconCarrier">
-									<path
-										d="M3 9H21M7 3V5M17 3V5M6 12H8M11 12H13M16 12H18M6 15H8M11 15H13M16 15H18M6 18H8M11 18H13M16 18H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z"
-										stroke="#000000"
-										stroke-width="2"
-										stroke-linecap="round"
-									></path>
-								</g>
-							</svg>
-							<p>06/06/2024</p>
+				<div class="right-topics">
+					<h2>Hot topics</h2>
+					<div class="topics">
+						<div class="onderwerp">
+							<p>Onderwerpen</p>
+							<p>Berichten</p>
 						</div>
-						<div class="comment">10 comments</div>
+						<div class="topic1">
+							<a href="#"><p>1. Waarom is simulatie belangrijk?</p></a>
+							<p>404</p>
+						</div>
+						<div class="topic2">
+							<a href="#"><p>2. Waarom is simulatie belangrijk?</p></a>
+							<p>404</p>
+						</div>
+						<div class="topic3">
+							<a href="#"><p>3. Waarom is simulatie belangrijk?</p></a>
+							<p>404</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="addcomment">
-				<a href="#"><p>Schrijf een commentaar</p></a>
+			<div class="posts">
+				<div class="post">
+					<div class="left-image-user">
+						<img src="/css/images/man_docent.jpg" alt="docent" />
+					</div>
+					<div class="right-info">
+						<h3>Hoe werkt een simulatie?</h3>
+						<p>
+							Het voordeel van simulatieonderwijs is dat de complexiteit van de
+							situatie realistisch wordt voorgesteld en dat de leersituatie
+							veilig is.
+						</p>
+						<div class="date-comments">
+							<div class="date">
+								<svg
+									width="20px"
+									height="20px"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g
+										id="SVGRepo_tracerCarrier"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									></g>
+									<g id="SVGRepo_iconCarrier">
+										<path
+											d="M3 9H21M7 3V5M17 3V5M6 12H8M11 12H13M16 12H18M6 15H8M11 15H13M16 15H18M6 18H8M11 18H13M16 18H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z"
+											stroke="#000000"
+											stroke-width="2"
+											stroke-linecap="round"
+										></path>
+									</g>
+								</svg>
+								<p>06/06/2024</p>
+							</div>
+							<div class="comment">10 comments</div>
+						</div>
+					</div>
+				</div>
+				<div class="addcomment">
+					<a href="#"><p>Schrijf een commentaar</p></a>
+				</div>
+
+				<div class="post">
+					<div class="left-image-user">
+						<img src="/css/images/man_docent.jpg" alt="docent" />
+					</div>
+					<div class="right-info">
+						<h3>Hoe werkt een simulatie?</h3>
+						<p>
+							Het voordeel van simulatieonderwijs is dat de complexiteit van de
+							situatie realistisch wordt voorgesteld en dat de leersituatie
+							veilig is.
+						</p>
+						<div class="date-comments">
+							<div class="date">
+								<svg
+									width="20px"
+									height="20px"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g
+										id="SVGRepo_tracerCarrier"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									></g>
+									<g id="SVGRepo_iconCarrier">
+										<path
+											d="M3 9H21M7 3V5M17 3V5M6 12H8M11 12H13M16 12H18M6 15H8M11 15H13M16 15H18M6 18H8M11 18H13M16 18H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z"
+											stroke="#000000"
+											stroke-width="2"
+											stroke-linecap="round"
+										></path>
+									</g>
+								</svg>
+								<p>06/06/2024</p>
+							</div>
+							<div class="comment">10 comments</div>
+						</div>
+					</div>
+				</div>
+				<div class="addcomment">
+					<a href="#"><p>Schrijf een commentaar</p></a>
+				</div>
+
+				<div class="post">
+					<div class="left-image-user">
+						<img src="/css/images/man_docent.jpg" alt="docent" />
+					</div>
+					<div class="right-info">
+						<h3>Hoe werkt een simulatie?</h3>
+						<p>
+							Het voordeel van simulatieonderwijs is dat de complexiteit van de
+							situatie realistisch wordt voorgesteld en dat de leersituatie
+							veilig is.
+						</p>
+						<div class="date-comments">
+							<div class="date">
+								<svg
+									width="20px"
+									height="20px"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g
+										id="SVGRepo_tracerCarrier"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									></g>
+									<g id="SVGRepo_iconCarrier">
+										<path
+											d="M3 9H21M7 3V5M17 3V5M6 12H8M11 12H13M16 12H18M6 15H8M11 15H13M16 15H18M6 18H8M11 18H13M16 18H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z"
+											stroke="#000000"
+											stroke-width="2"
+											stroke-linecap="round"
+										></path>
+									</g>
+								</svg>
+								<p>06/06/2024</p>
+							</div>
+							<div class="comment">10 comments</div>
+						</div>
+					</div>
+				</div>
+				<div class="addcomment">
+					<a href="#"><p>Schrijf een commentaar</p></a>
+				</div>
+			</div>
+			<div class="tipstricks">
+				<h4>Tips & Tricks</h4>
+				<div class="tips-container">
+					<div class="tip">
+						<div class="imgtips">
+							<img src="css/images/simulatieoefeningtips.jpg" alt="simulatie" />
+						</div>
+						<div class="tipstext">
+							<h3>Tips om realistische scenario's te creëren</h3>
+							<p>
+								zo 06 juni 2024
+								<svg
+									width="12px"
+									height="12px"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g
+										id="SVGRepo_tracerCarrier"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									></g>
+									<g id="SVGRepo_iconCarrier">
+										<path
+											d="M12 7V12L14.5 10.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+											stroke="#000000"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										></path>
+									</g>
+								</svg>
+								16:30
+							</p>
+						</div>
+						<div class="button-2 a">
+							<a href="read_more_url" class="button-leesmeer">Lees meer</a>
+						</div>
+					</div>
+
+					<div class="tip">
+						<div class="imgtips">
+							<img src="css/images/simulatieoefeningtips.jpg" alt="simulatie" />
+						</div>
+						<div class="tipstext">
+							<h3>Tips om realistische scenario's te creëren</h3>
+
+							<p>
+								zo 06 juni 2024
+								<svg
+									width="12px"
+									height="12px"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g
+										id="SVGRepo_tracerCarrier"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									></g>
+									<g id="SVGRepo_iconCarrier">
+										<path
+											d="M12 7V12L14.5 10.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+											stroke="#000000"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										></path>
+									</g>
+								</svg>
+								16:30
+							</p>
+						</div>
+						<div class="button-2 a">
+							<a href="read_more_url" class="button-leesmeer">Lees meer</a>
+						</div>
+					</div>
+				</div>
 			</div>
 
-			<div class="post">
-				<div class="left-image-user">
-					<img src="/css/images/man_docent.jpg" alt="docent" />
-				</div>
-				<div class="right-info">
-					<h3>Hoe werkt een simulatie?</h3>
-					<p>Het voordeel van simulatieonderwijs is dat de complexiteit van de situatie realistisch wordt voorgesteld en dat de leersituatie veilig is.</p>
-					<div class="date-comments">
-						<div class="date">
-							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-								<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-								<g id="SVGRepo_iconCarrier">
-									<path
-										d="M3 9H21M7 3V5M17 3V5M6 12H8M11 12H13M16 12H18M6 15H8M11 15H13M16 15H18M6 18H8M11 18H13M16 18H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z"
-										stroke="#000000"
-										stroke-width="2"
-										stroke-linecap="round"
-									></path>
-								</g>
-							</svg>
-							<p>06/06/2024</p>
+			<div class="tipstricks">
+				<div class="tips-container2">
+					<div class="tip">
+						<div class="imgtips">
+							<img src="css/images/simulatieoefeningtips.jpg" alt="simulatie" />
 						</div>
-						<div class="comment">10 comments</div>
-					</div>
-				</div>
-			</div>
-			<div class="addcomment">
-				<a href="#"><p>Schrijf een commentaar</p></a>
-			</div>
-
-			<div class="post">
-				<div class="left-image-user">
-					<img src="/css/images/man_docent.jpg" alt="docent" />
-				</div>
-				<div class="right-info">
-					<h3>Hoe werkt een simulatie?</h3>
-					<p>Het voordeel van simulatieonderwijs is dat de complexiteit van de situatie realistisch wordt voorgesteld en dat de leersituatie veilig is.</p>
-					<div class="date-comments">
-						<div class="date">
-							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-								<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-								<g id="SVGRepo_iconCarrier">
-									<path
-										d="M3 9H21M7 3V5M17 3V5M6 12H8M11 12H13M16 12H18M6 15H8M11 15H13M16 15H18M6 18H8M11 18H13M16 18H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z"
-										stroke="#000000"
-										stroke-width="2"
+						<div class="tipstext">
+							<h3>Tips om realistische scenario's te creëren</h3>
+							<p>
+								zo 06 juni 2024
+								<svg
+									width="12px"
+									height="12px"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g
+										id="SVGRepo_tracerCarrier"
 										stroke-linecap="round"
-									></path>
-								</g>
-							</svg>
-							<p>06/06/2024</p>
+										stroke-linejoin="round"
+									></g>
+									<g id="SVGRepo_iconCarrier">
+										<path
+											d="M12 7V12L14.5 10.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+											stroke="#000000"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										></path>
+									</g>
+								</svg>
+								16:30
+							</p>
 						</div>
-						<div class="comment">10 comments</div>
+						<div class="button-2 a">
+							<a href="read_more_url" class="button-leesmeer">Lees meer</a>
+						</div>
 					</div>
-				</div>
-			</div>
-			<div class="addcomment">
-				<a href="#"><p>Schrijf een commentaar</p></a>
-			</div>
-		</div>
-		<div class="tipstricks">
-			<h4>Tips & Tricks</h4>
-			<div class="tips-container">
-				<div class="tip">
-					<div class="imgtips">
-						<img src="css/images/simulatieoefeningtips.jpg" alt="simulatie" />
-					</div>
-					<div class="tipstext">
-						<h3>Tips om realistische scenario's te creëren</h3>
-						<p>zo 06 juni 2024 <svg width="12px" height="12px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 7V12L14.5 10.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg> 16:30</p>
-					</div>
-					<div class="button-2 a">
-						<a href="read_more_url" class="button-leesmeer">Lees meer</a>
-					</div>
-				</div>
-		
-				<div class="tip">
-					<div class="imgtips">
-						<img src="css/images/simulatieoefeningtips.jpg" alt="simulatie" />
-					</div>
-					<div class="tipstext">
-						<h3>Tips om realistische scenario's te creëren</h3>
-						
-						<p>zo 06 juni 2024 <svg width="12px" height="12px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 7V12L14.5 10.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg> 16:30</p>
-					</div>
-					<div class="button-2 a">
-						<a href="read_more_url" class="button-leesmeer">Lees meer</a>
-					</div>
-				</div>
-			</div>
-		</div>
 
-		<div class="tipstricks">
-			
-			<div class="tips-container2">
-				<div class="tip">
-					<div class="imgtips">
-						<img src="css/images/simulatieoefeningtips.jpg" alt="simulatie" />
-					</div>
-					<div class="tipstext">
-						<h3>Tips om realistische scenario's te creëren</h3>
-						<p>zo 06 juni 2024 <svg width="12px" height="12px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 7V12L14.5 10.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg> 16:30</p>
-					</div>
-					<div class="button-2 a">
-						<a href="read_more_url" class="button-leesmeer">Lees meer</a>
-					</div>
-				</div>
-		
-				<div class="tip">
-					<div class="imgtips">
-						<img src="css/images/simulatieoefeningtips.jpg" alt="simulatie" />
-					</div>
-					<div class="tipstext">
-						<h3>Tips om realistische scenario's te creëren</h3>
-						<p>zo 06 juni 2024 <svg width="12px" height="12px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 7V12L14.5 10.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg> 16:30</p>
-					</div>
-					<div class="button-2 a">
-						<a href="read_more_url" class="button-leesmeer">Lees meer</a>
+					<div class="tip">
+						<div class="imgtips">
+							<img src="css/images/simulatieoefeningtips.jpg" alt="simulatie" />
+						</div>
+						<div class="tipstext">
+							<h3>Tips om realistische scenario's te creëren</h3>
+							<p>
+								zo 06 juni 2024
+								<svg
+									width="12px"
+									height="12px"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g
+										id="SVGRepo_tracerCarrier"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									></g>
+									<g id="SVGRepo_iconCarrier">
+										<path
+											d="M12 7V12L14.5 10.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+											stroke="#000000"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										></path>
+									</g>
+								</svg>
+								16:30
+							</p>
+						</div>
+						<div class="button-2 a">
+							<a href="read_more_url" class="button-leesmeer">Lees meer</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		
-		
+		<footer>
+			<div class="footer">
+				<div class="row">
+					<ul>
+						<li><a href="OverOns.html">Over Ons</a></li>
+						<li><a href="events.html">Events</a></li>
+						<li><a href="educatie.html">Educatie</a></li>
+						<li><a href="forum.html">Forum</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="login.html">Log in</a></li>
+					</ul>
+				</div>
+
+				<div class="row">NSH Copyright © 2024 - All rights reserved</div>
+			</div>
+		</footer>
+	</header>
 </body>
