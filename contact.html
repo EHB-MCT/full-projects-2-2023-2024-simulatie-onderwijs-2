@@ -4,13 +4,14 @@
 <head>
 	<link href="css/reset.css" rel="stylesheet" />
 	<link href="css/main backup.css" rel="stylesheet" />
+	<link href="css/contact.css" rel="stylesheet" />
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
 	<nav role="navigation">
 		<div class="navigationlogo">
-			<h1>NSH</h1>
+			<h1><a href="index.html">NSH</a></h1>
 		</div>
 		<div id="menuToggle">
 			<input type="checkbox" />
@@ -42,31 +43,30 @@
 		</ul>
 	</div>
 	<header>
-		<div class="titel">
-			<h4>Contacteer Ons</h4>
-		</div>
-		<div class="wrapper">
-			<form class="form-box" action="#">
-				<div class="input-box">
-					<label>Voor-en achternaam*</label>
-					<input type="text" required id="naam" />
-				</div>
-				<div class="input-box">
-					<label>E-mail*</label>
-					<input type="text" required id="Email" />
-				</div>
-				<div class="input-box">
-					<label>Telefoon(optioneel)</label>
-					<input type="text" required id="Telefoon" />
-				</div>
-				<div class="input-box">
-					<label>Bericht*</label>
-					<input type="text" id="Bericht" />
-				</div>
-				<div class="Accept politicy">
-					<label><input type="checkbox" />Accept politicy</label>
-				</div>
-				<button type="submit" class="btn">Stuur een bericht</button>
+		<h3>Contacteer Ons</h3>
+		<div class="container">
+			<form id="contactForm">
+				<label for="firstName">Voornaam*</label>
+				<input type="text" id="firstName" name="firstName" required />
+
+				<label for="lastName">Achternaam*</label>
+				<input type="text" id="lastName" name="lastName" required />
+
+				<label for="email">Email*</label>
+				<input type="email" id="email" name="email" required />
+
+				<label for="phone">Telefoon(optioneel)</label>
+				<input type="tel" id="phone" name="phone" />
+
+				<label for="message">Bericht*</label>
+				<textarea id="message" name="message" rows="4" required></textarea>
+
+				<label>
+					<input type="checkbox" id="policy" name="policy" required />
+					Accept privacy policy
+				</label>
+
+				<button type="submit">Stuur een bericht</button>
 			</form>
 		</div>
 	</header>
