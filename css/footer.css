@@ -44,7 +44,7 @@ body {
 
 @media (max-width: 720px) {
 	.footer {
-		text-align: left;
+		text-align: center;
 		padding: 5%;
 	}
 	.footer .row ul li {
@@ -54,5 +54,6 @@ body {
 	}
 	.footer .row a i {
 		margin: 0% 3%;
+		text-align: center;
 	}
 }
