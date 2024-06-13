@@ -14,6 +14,7 @@
 .button-login {
 	display: inline-block;
 	cursor: pointer;
+	width: 75%;
 }
 
 .login-title {
@@ -31,6 +32,12 @@
 
 .left-img img {
 	display: none;
+}
+.wrapperlogin {
+	padding-top: 0;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 @media screen and (min-width: 768px) {
@@ -73,7 +80,7 @@
 		margin-left: 75px;
 	}
 
-	.wrapperlogin {
+	.login-welcome {
 		padding-top: 150px;
 		align-items: center;
 		display: flex;
@@ -85,8 +92,8 @@
 	}
 }
 
-@media screen and (max-width: 460px) {
-	.button-2 a {
+@media screen and (max-width: 748px) {
+	.button-7 a {
 		margin: 10px 0;
 	}
 }

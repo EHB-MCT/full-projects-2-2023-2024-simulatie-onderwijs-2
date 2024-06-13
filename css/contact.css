@@ -8,19 +8,16 @@ body {
 .container {
 	max-width: 300px;
 	margin: 50px auto;
-	margin-top: 100px;
 	padding: 30px;
 	background-color: #fff;
 	border-radius: 30px;
 }
 
-h3 {
-	font-size: 25px;
-	text-align: left;
-	color: #246cc0;
-	position: absolute;
-	margin-left: 50px;
-	margin-top: -50px;
+.title-contact h1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 100px;
 }
 
 label {
@@ -32,7 +29,7 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
-	width: 100%;
+	width: auto;
 	padding: 10px;
 	margin-top: 5px;
 	border: 1px solid #ccc;
@@ -60,13 +57,8 @@ button:hover {
 @media screen and (min-width: 768px) {
 	.container {
 		max-width: 800px;
-		margin-top: 200px;
 	}
-	h3 {
-		font-size: 50px;
-		font-weight: bold;
-		margin-left: 370px;
-		margin-top: -80px;
-		position: absolute;
+	.button-2 {
+		display: flex;
 	}
 }

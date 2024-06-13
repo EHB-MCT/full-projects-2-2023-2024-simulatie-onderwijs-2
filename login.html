@@ -6,62 +6,91 @@
 		<title>Log in</title>
 		<link href="css/reset.css" rel="stylesheet" />
 		<link href="css/main backup.css" rel="stylesheet" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+		/>
 	</head>
 	<body>
-		<nav role="navigation">
-			<div class="navigationlogo">
-				<h1><a href="index.html">NSH</a></h1>
-			</div>
-			<div id="menuToggle">
-				<input type="checkbox" />
+		<div class="wrapper">
+			<nav role="navigation">
+				<div class="navigationlogo mobile">
+					<h1><a href="index.html">NSH</a></h1>
+				</div>
+				<div id="menuToggle">
+					<input type="checkbox" />
 
-				<span></span>
-				<span></span>
-				<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
 
-				<ul id="menu">
-					<a href="index.html"><li>Home</li></a>
-					<a href="OverOns.html"><li>Over Ons</li></a>
-					<a href="events.html"><li>Events</li></a>
-					<a href="educatie.html"><li>Educatie</li></a>
-					<a href="forum.html" target="_blank"><li>Forum</li></a>
-					<a href="contact.html" target="_blank"><li>Contact</li></a>
-					<a href="login.html" target="_blank"
-						><li><i class="icoonlogin fas fa-user"></i>Login</li></a
-					>
+					<ul id="menu" class="hamburgermenu">
+						<a href="index.html"><li>Home</li></a>
+						<a href="OverOns.html"><li>Over Ons</li></a>
+						<a href="events.html"><li>Events</li></a>
+						<a href="educatie.html"><li>Educatie</li></a>
+						<a href="forum.html" target="_blank"><li>Forum</li></a>
+						<a href="contact.html" target="_blank"><li>Contact</li></a>
+						<a href="login.html" target="_blank"
+							><li>Login <i class="icoonlogin fas fa-user"></i></li
+						></a>
+					</ul>
+				</div>
+			</nav>
+			<div class="topnav">
+				<div class="navigationlogo noMobile">
+					<h1><a href="index.html">NSH</a></h1>
+				</div>
+				<ul>
+					<li><a href="OverOns.html">Over Ons</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="educatie.html">Educatie</a></li>
+					<li><a href="forum.html">Forum</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li>
+						<a href="login.html"
+							>Log In <i class="icoonlogin fas fa-user"></i
+						></a>
+					</li>
 				</ul>
 			</div>
-		</nav>
-		<div class="topnav">
-			<ul>
-				<li><a href="OverOns.html">Over Ons</a></li>
-				<li><a href="events.html">Events</a></li>
-				<li><a href="educatie.html">Educatie</a></li>
-				<li><a href="forum.html">Forum</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="login.html">Log In</a></li>
-			</ul>
+			<div class="login-welcome">
+				<div class="left-img">
+					<img src="css/images/leerkracht_bord.jpg" alt="uitleg leerkracht" />
+				</div>
+				<div class="right-text">
+					<div class="login-text">
+						<h1 class="login-title">Log in</h1>
+					</div>
+					<div class="input-fields">
+						<input type="email" placeholder="E-mail*" />
+						<input type="password" placeholder="Wachtwoord*" />
+						<a href="#"><p>Je wachtwoord vergeten?</p></a>
+					</div>
+					<div class="button-7">
+						<a href="login_page_url" class="button-login">Log in</a>
+						<a href="create_account_page_url" class="button-login"
+							>Maak een nieuw account</a
+						>
+					</div>
+				</div>
+			</div>
 		</div>
+		<footer>
+			<div class="footer">
+				<div class="row">
+					<ul>
+						<li><a href="OverOns.html">Over Ons</a></li>
+						<li><a href="events.html">Events</a></li>
+						<li><a href="educatie.html">Educatie</a></li>
+						<li><a href="forum.html">Forum</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="login.html">Log in</a></li>
+					</ul>
+				</div>
 
-		<div class="wrapperlogin">
-			<div class="left-img">
-				<img src="css/images/leerkracht_bord.jpg" alt="uitleg leerkracht" />
+				<div class="row">NSH Copyright © 2024 - All rights reserved</div>
 			</div>
-			<div class="right-text">
-				<div class="login-text">
-					<h1 class="login-title">Log in</h1>
-				</div>
-				<div class="input-fields">
-					<input type="email" placeholder="E-mail*" />
-					<input type="password" placeholder="Wachtwoord*" />
-					<a href="#"><p>Je wachtwoord vergeten?</p></a>
-				</div>
-				<div class="button-2 a">
-					<a href="login_page_url" class="button-login">Log in</a>
-					<a href="create_account_page_url" class="button-login">Maak een nieuw account</a>
-				</div>
-			</div>
-		</div>
+		</footer>
 	</body>
 </html>
