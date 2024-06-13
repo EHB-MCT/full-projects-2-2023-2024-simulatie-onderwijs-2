@@ -4,6 +4,22 @@
 <head>
 	<link href="css/reset.css" rel="stylesheet" />
 	<link href="css/main backup.css" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+	/>
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap"
+		rel="stylesheet"
+	/>
+
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+	/>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
@@ -11,62 +27,78 @@
 	<!--    Made by Erik Terwan    -->
 	<!--   24th of November 2015   -->
 	<!--        MIT License        -->
-	<nav role="navigation">
-		<div id="menuToggle">
-			<input type="checkbox" />
-
-			<span></span>
-			<span></span>
-			<span></span>
-
-			<ul id="menu">
-				<a href="index.html"><li>Home</li></a>
-				<a href="OverOns.html"><li>Over Ons</li></a>
-				<a href="events.html"><li>Events</li></a>
-				<a href="educatie.html"><li>Educatie</li></a>
-				<a href="forum.html" target="_blank"><li>Forum</li></a>
-				<a href="contact.html" target="_blank"><li>Contact</li></a>
-				<a href="login.html" target="_blank"><li>Login</li></a>
-			</ul>
-		</div>
-	</nav>
-	<div class="topnav">
-		<ul>
-			<li><a href="index.html" class="logo">NSH</a></li>
-			<li><a href="OverOns.html">Over Ons</a></li>
-			<li><a href="events.html">Events</a></li>
-			<li><a href="educatie.html">Educatie</a></li>
-			<li><a href="forum.html">Forum</a></li>
-			<li><a href="contact.html">Contact</a></li>
-			<li><a href="login.html">Log In</a></li>
-		</ul>
-	</div>
 
 	<header>
 		<div class="wrapper">
-			<div class="we-are">
-				<h4>Wij zijn NSH</h4>
-				<p>
-					Een open netwerk waar alle Vlaamse Hogescholen vertegenwoordigd zijn.
-					Gericht op samenwerking en uitwisseling van kennis en ervaring op het
-					gebied van simulatieonderwijs.
-				</p>
-				<img src="css/images/18736415129_6c9fae5707_z.jpg" />
+			<nav role="navigation">
+				<div class="navigationlogo mobile">
+					<h1><a href="index.html">NSH</a></h1>
+				</div>
+				<div id="menuToggle">
+					<input type="checkbox" />
+
+					<span></span>
+					<span></span>
+					<span></span>
+
+					<ul id="menu" class="hamburgermenu">
+						<a href="index.html"><li>Home</li></a>
+						<a href="OverOns.html"><li>Over Ons</li></a>
+						<a href="events.html"><li>Events</li></a>
+						<a href="educatie.html"><li>Educatie</li></a>
+						<a href="forum.html" target="_blank"><li>Forum</li></a>
+						<a href="contact.html" target="_blank"><li>Contact</li></a>
+						<a href="login.html" target="_blank"
+							><li>Login <i class="icoonlogin fas fa-user"></i></li
+						></a>
+					</ul>
+				</div>
+			</nav>
+			<div class="topnav">
+				<div class="navigationlogo noMobile">
+					<h1><a href="index.html">NSH</a></h1>
+				</div>
+				<ul>
+					<li><a href="OverOns.html">Over Ons</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="educatie.html">Educatie</a></li>
+					<li><a href="forum.html">Forum</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li>
+						<a href="login.html"
+							>Log In <i class="icoonlogin fas fa-user"></i
+						></a>
+					</li>
+				</ul>
 			</div>
 
-			<div class="we-do">
-				<h4>Wat doen we</h4>
-				<p>
-					Ons doel is om een netwerk te bouwenwaar we zowel best practice kunnen
-					bespreken en/of delen maar ook samen sterker naar voor kunnen komen
-					als 1 community bij het publiceren van onderzoeken.
-				</p>
+			<div class="deel1">
+				<div class="we-are">
+					<h1>Wij zijn NSH</h1>
+					<p>
+						Een open netwerk waar alle Vlaamse Hogescholen vertegenwoordigd
+						zijn. Gericht op samenwerking en uitwisseling van kennis en ervaring
+						op het gebied van simulatieonderwijs.
+					</p>
+					<img src="css/images/18736415129_6c9fae5707_z.jpg" />
+				</div>
 
-				<img src="css/images/18705053983_716454ea38_z.jpg" />
+				<div class="we-do">
+					<h1>Wat doen we</h1>
+					<p>
+						Ons doel is om een netwerk te bouwenwaar we zowel best practice
+						kunnen bespreken en/of delen maar ook samen sterker naar voor kunnen
+						komen als 1 community bij het publiceren van onderzoeken.
+					</p>
+
+					<img src="css/images/18705053983_716454ea38_z.jpg" />
+				</div>
 			</div>
 
+			<div class="title">
+				<h1>Waar staan we voor</h1>
+			</div>
 			<div class="we-stand">
-				<h4>Waar staan we voor</h4>
 				<div class="missie">
 					<img src="css/images/missie-04.png" />
 					<h5>Missie</h5>
@@ -96,13 +128,28 @@
 						simulatieopleidingen.
 					</p>
 				</div>
-
-				<div class="button-4">
-					<ul>
-						<li><a href="aboutme.html">Ontdek meer</a></li>
-					</ul>
-				</div>
+			</div>
+			<div class="button-4">
+				<ul>
+					<li><a href="login.html">Join Us</a></li>
+				</ul>
 			</div>
 		</div>
+		<footer>
+			<div class="footer">
+				<div class="row">
+					<ul>
+						<li><a href="OverOns.html">Over Ons</a></li>
+						<li><a href="events.html">Events</a></li>
+						<li><a href="educatie.html">Educatie</a></li>
+						<li><a href="forum.html">Forum</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="login.html">Log in</a></li>
+					</ul>
+				</div>
+
+				<div class="row">NSH Copyright © 2024 - All rights reserved</div>
+			</div>
+		</footer>
 	</header>
 </body>

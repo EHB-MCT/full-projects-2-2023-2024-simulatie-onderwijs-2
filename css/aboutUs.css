@@ -1,4 +1,8 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+	.we-are {
+		padding-top: 30px;
+	}
+
 	.we-are img {
 		padding-top: 20px;
 		width: 40%;
@@ -18,9 +22,9 @@
 		margin-left: 120px;
 	}
 
-    .we-do h4{
-        padding-top: 30px;
-    }
+	.we-do h4 {
+		padding-top: 30px;
+	}
 
 	.we-do p {
 		margin-top: 20px;
@@ -64,7 +68,97 @@
 		padding-top: 10px;
 	}
 
-    .button-4 {
-        margin-top: 60px;
-    }
+	.button-4 {
+		margin-top: 60px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.deel1 {
+		display: flex;
+	}
+	.we-are {
+		padding-top: 130px;
+	}
+	.we-are img {
+		padding-top: 20px;
+		width: 40%;
+		border-radius: 15%;
+	}
+	.we-are p {
+		padding-top: 20px;
+	}
+	.we-are h4 {
+		padding-top: 80px;
+	}
+	.we-do {
+		padding-top: 300px;
+		margin-left: 120px;
+	}
+	.we-do h4 {
+		padding-top: 30px;
+	}
+	.we-do p {
+		margin-top: 20px;
+	}
+	.we-do img {
+		width: 75%;
+		padding-top: 20px;
+		border-radius: 15%;
+	}
+	.title {
+		display: flex;
+		justify-content: center;
+	}
+	.we-stand {
+		padding-top: 100px;
+		text-align: left;
+		display: flex;
+		align-items: center;
+		width: auto;
+		justify-content: space-evenly;
+	}
+
+	.we-stand img {
+		width: 20%;
+	}
+
+	.missie {
+		padding-top: 5px;
+	}
+
+	.missie p {
+		width: 80%;
+	}
+
+	.waarden {
+		padding-top: 20px;
+	}
+
+	.waarden p {
+		width: 80%;
+	}
+
+	.visie {
+		width: auto;
+	}
+	h5 {
+		padding-bottom: 5px;
+		padding-top: 10px;
+		color: black;
+		font-size: 20px;
+		font-family: "Outfit", sans-serif;
+		font-weight: bold;
+	}
+	.button-4 {
+		margin-top: 60px;
+	}
+
+	footer {
+		padding-top: 30px;
+	}
+	.button-4 {
+		display: flex;
+		justify-content: center;
+	}
 }
