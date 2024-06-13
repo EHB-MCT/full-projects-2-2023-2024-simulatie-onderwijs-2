@@ -21,11 +21,23 @@ h3 {
 	position: absolute;
 	margin-left: 50px;
 	margin-top: -50px;
+	font-weight: bold;
 }
 
 label {
 	display: block;
 	margin-top: 10px;
+}
+.form-group {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.form-group label {
+	margin-bottom: 5px;
 }
 
 input[type="text"],
@@ -57,15 +69,16 @@ button {
 button:hover {
 	background-color: #fff8c2;
 }
+
 @media screen and (min-width: 768px) {
 	.container {
 		max-width: 800px;
 		margin-top: 200px;
+		padding: 40px;
 	}
 	h3 {
 		font-size: 50px;
 		font-weight: bold;
-		margin-left: 370px;
 		margin-top: -80px;
 		position: absolute;
 	}
