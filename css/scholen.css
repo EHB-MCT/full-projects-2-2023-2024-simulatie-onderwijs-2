@@ -34,8 +34,7 @@
 
 /* Verberg de dropbtn op grotere schermen */
 @media screen and (min-width: 768px) {
-
-	.researches{
+	.researches {
 		margin-top: 600px;
 	}
 	.school-img2 {
@@ -94,6 +93,10 @@
 	padding: 12px 30px;
 	font-family: "Outfit", sans-serif;
 	font-weight: bold;
+}
+.right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
 }
 
 .arrow {
