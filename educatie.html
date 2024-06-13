@@ -12,6 +12,9 @@
 	<!--   24th of November 2015   -->
 	<!--        MIT License        -->
 	<nav role="navigation">
+		<div class="navigationlogo mobile">
+			<h1><a href="index.html">NSH</a></h1>
+		</div>
 		<div id="menuToggle">
 			<input type="checkbox" />
 
@@ -19,14 +22,16 @@
 			<span></span>
 			<span></span>
 
-			<ul id="menu">
+			<ul id="menu" class="hamburgermenu">
 				<a href="index.html"><li>Home</li></a>
 				<a href="OverOns.html"><li>Over Ons</li></a>
 				<a href="events.html"><li>Events</li></a>
 				<a href="educatie.html"><li>Educatie</li></a>
 				<a href="forum.html" target="_blank"><li>Forum</li></a>
 				<a href="contact.html" target="_blank"><li>Contact</li></a>
-				<a href="login.html" target="_blank"><li>Login</li></a>
+				<a href="login.html" target="_blank"
+					><li>Login <i class="icoonlogin fas fa-user"></i></li
+				></a>
 			</ul>
 		</div>
 	</nav>
@@ -46,10 +51,10 @@
 		<div class="wrapper">
 			<div class="education">
 				<h1>Educatie</h1>
-				<div class="dropdown">
+				<div class="dropdown desktop-hide">
 					<button class="dropbtn">Kies je school</button>
 					<div class="dropdown-content">
-						<a href="#">Ap Antwerpen</a>
+						<a href="apAntwerpen.html">Ap Antwerpen</a>
 						<a href="#">Artevelde hogeschool</a>
 						<a href="#">Erasmus hogeschool Brussel</a>
 						<a href="#">HO GENT</a>
@@ -61,6 +66,22 @@
 						<a href="#">UCLL hogeschool</a>
 						<a href="#">VIVES-hogeschool</a>
 					</div>
+				</div>
+
+				<div class="button-all-school">
+					<ul>
+						<li><a href="apAntwerpen.html">AP Antwerpen</a></li>
+						<li><a href="aboutme.html">Artevelde hogeschool</a></li>
+						<li><a href="aboutme.html">Erasmus Hogeschool brussel</a></li>
+						<li><a href="aboutme.html">HO GENT</a></li>
+						<li><a href="pxl.html">Hogeschool PXL</a></li>
+						<li><a href="aboutme.html">Howest Hogeschool</a></li>
+						<li><a href="aboutme.html">KDG- Karel de Grote Hogeschool</a></li>
+						<li><a href="aboutme.html">Odisee De co-Hogeschool</a></li>
+						<li><a href="aboutme.html">Thomas More</a></li>
+						<li><a href="aboutme.html">UCLL</a></li>
+						<li><a href="aboutme.html">VIVES Hogeschool</a></li>
+					</ul>
 				</div>
 				<div class="map">
 					<img src="css/images/kaart png.png" />
@@ -82,20 +103,20 @@
 		</div>
 	</header>
 
-	<div class="footer">
-		<ul>
-			<img src="css/images/telefoon-04.png" />
+	<footer>
+		<div class="footer">
+			<div class="row">
+				<ul>
+					<li><a href="OverOns.html">Over Ons</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="educatie.html">Educatie</a></li>
+					<li><a href="forum.html">Forum</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="login.html">Log in</a></li>
+				</ul>
+			</div>
 
-			<li><a href="educatie.html">+0486 45 56 67</a></li>
-
-			<img src="css/images/email-05.png" />
-
-			<li><a href="educatie.html">Erasmushogeschool.be</a></li>
-		</ul>
-		<div class="social">
-			<a href="https://www.twitter.com"><img src="css/images/twitter-02.png" alt="Twitter" /></a>
-			<a href="https://www.facebook.com"><img src="css/images/fb-01.png" alt="Facebook" /></a>
-			<a href="https://www.instagram.com"><img src="css/images/insta-03.png" alt="Instagram" /></a>
+			<div class="row">NSH Copyright © 2024 - All rights reserved</div>
 		</div>
-	</div>
+	</footer>
 </body>
