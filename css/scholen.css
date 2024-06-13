@@ -1,0 +1,100 @@
+.school-pxl h1 {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.school-pxl img {
+	padding-top: 50px;
+	width: 50%;
+}
+
+.pxl-img img {
+	width: 60%;
+	border-radius: 10%;
+}
+.research h1 {
+	padding-top: 100px;
+}
+
+.school-pxl p {
+	margin-top: 20px;
+}
+
+.button-6 {
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.panel p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 15px;
+}
+
+.dropbtn {
+	margin-top: 30px;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	background-color: black;
+	transition: background-color 0.5s;
+	transition-timing-function: ease;
+	padding: 12px 30px;
+	font-family: "Outfit", sans-serif;
+	font-weight: bold;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.artikel-button a {
+	font-size: 20px;
+	color: #246cc0;
+}
+
+.artikel-button {
+	padding-bottom: 30px;
+}
+
+.artikel-button a:hover {
+	color: black;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #fff8c2;
+	color: black;
+	border: none;
+
+}
+
+.dropdown-content a {
+	font-size: 17px;
+}
+
+.research h1 {
+	padding-bottom: 10px;
+}
