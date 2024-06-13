@@ -40,6 +40,10 @@
 	text-align: center;
 }
 
+.forum {
+	padding-top: 100px;
+}
+
 .forum h4,
 .buttons-topics h4 {
 	color: #246cc0;
@@ -89,6 +93,13 @@
 .topic2 a,
 .topic3 a {
 	text-decoration: none;
+	color: #246cc0;
+}
+.topic1 p,
+.topic2 p,
+.topic3 p {
+	color: #246cc0;
+	text-decoration: none;
 }
 
 .left-image-user img {
@@ -114,6 +125,10 @@
 	padding: 12px;
 	margin: 45px 0px 15px;
 	/* margin-bottom: 50px; */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.post a {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .right-info {
@@ -230,5 +245,35 @@
 		flex-direction: column-reverse;
 		align-items: center;
 		margin: 50px 0;
+	}
+	.post {
+		display: flex;
+		align-items: center;
+		width: 300px;
+		background-color: white;
+		border-radius: 30px;
+		padding: 12px;
+		margin: 45px 0px 15px;
+		/* margin-bottom: 50px; */
+	}
+
+	.posts {
+		display: flex;
+		flex-direction: column;
+		margin: 0px;
+		align-items: center;
+	}
+
+	h1 {
+		color: #246cc0;
+		font-size: 45px;
+		font-family: "Outfit", sans-serif;
+		font-weight: bold;
+	}
+	.topic1 p,
+	.topic2 p,
+	.topic3 p {
+		color: #246cc0;
+		text-decoration: none;
 	}
 }

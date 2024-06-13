@@ -6,47 +6,53 @@
 	<link href="css/main backup.css" rel="stylesheet" />
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 </header>
 <body>
-	<!--    Made by Erik Terwan    -->
-	<!--   24th of November 2015   -->
-	<!--        MIT License        -->
-	<nav role="navigation">
-		<div class="navigationlogo">
-			<h1><a href="index.html">NSH</a></h1>
-		</div>
-		<div id="menuToggle">
-			<input type="checkbox" />
+	
 
-			<span></span>
-			<span></span>
-			<span></span>
-
-			<ul id="menu">
-				<a href="index.html"><li>Home</li></a>
-				<a href="OverOns.html"><li>Over Ons</li></a>
-				<a href="events.html"><li>Events</li></a>
-				<a href="educatie.html"><li>Educatie</li></a>
-				<a href="forum.html" target="_blank"><li>Forum</li></a>
-				<a href="contact.html" target="_blank"><li>Contact</li></a>
-				<a href="login.html" target="_blank"
-					><li><i class="icoonlogin fas fa-user"></i>Login</li></a
-				>
+	<div class="wrapper">
+		<nav role="navigation">
+			<div class="navigationlogo mobile">
+				<h1><a href="index.html">NSH</a></h1>
+			</div>
+			<div id="menuToggle">
+				<input type="checkbox" />
+	
+				<span></span>
+				<span></span>
+				<span></span>
+	
+				<ul id="menu" class="hamburgermenu">
+					<a href="index.html"><li>Home</li></a>
+					<a href="OverOns.html"><li>Over Ons</li></a>
+					<a href="events.html"><li>Events</li></a>
+					<a href="educatie.html"><li>Educatie</li></a>
+					<a href="forum.html" target="_blank"><li>Forum</li></a>
+					<a href="contact.html" target="_blank"><li>Contact</li></a>
+					<a href="login.html" target="_blank"
+						><li>Login <i class="icoonlogin fas fa-user"></i></li
+					></a>
+				</ul>
+			</div>
+		</nav>
+		<div class="topnav">
+			<div class="navigationlogo noMobile">
+				<h1><a href="index.html">NSH</a></h1>
+			</div>
+			<ul>
+				<li><a href="OverOns.html">Over Ons</a></li>
+				<li><a href="events.html">Events</a></li>
+				<li><a href="educatie.html">Educatie</a></li>
+				<li><a href="forum.html">Forum</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li>
+					<a href="login.html"
+						>Log In <i class="icoonlogin fas fa-user"></i
+					></a>
+				</li>
 			</ul>
 		</div>
-	</nav>
-	<div class="topnav">
-		<ul>
-			<li><a href="OverOns.html">Over Ons</a></li>
-			<li><a href="events.html">Events</a></li>
-			<li><a href="educatie.html">Educatie</a></li>
-			<li><a href="forum.html">Forum</a></li>
-			<li><a href="contact.html">Contact</a></li>
-			<li><a href="login.html">Log In</a></li>
-		</ul>
-	</div>
-
-	<div class="wrapperForum">
 		<div class="forum">
 			<h4>Welkom op onze discussieform</h4>
 			<div class="search-container">
@@ -80,7 +86,7 @@
 				</select>
 			</div>
 			<div class="right-topics">
-				<h3>Hot topics</h3>
+				<h2>Hot topics</h2>
 				<div class="topics">
 					<div class="onderwerp">
 						<p>Onderwerpen</p>
@@ -257,5 +263,6 @@
 				</div>
 			</div>
 		</div>
+		
 		
 </body>
