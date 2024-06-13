@@ -4,8 +4,6 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 50px;
-	position: fixed;
 
 	font-size: 18px;
 }
@@ -36,4 +34,8 @@
 
 a:hover {
 	background-size: 100% 3px;
+}
+
+.topnav h1 {
+	padding: 0;
 }
