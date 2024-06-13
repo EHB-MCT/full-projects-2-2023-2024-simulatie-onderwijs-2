@@ -51,6 +51,8 @@
 }
 
 .button-all-school ul li a:hover {
+	color: black;
+
 	background-color: #fff8c2;
 }
 
