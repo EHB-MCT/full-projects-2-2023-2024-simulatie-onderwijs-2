@@ -1,7 +1,6 @@
 nav {
 	display: none;
 }
-
 .title {
 	padding-top: 130px;
 }
@@ -30,7 +29,7 @@ body {
 	padding: 0;
 	background-repeat: no-repeat;
 	background-color: #e4f7f7;
-	background-image: url("/css/images/educatiescholen-desktop-background.png");
+	background-image: url("/css/images/homepage-desktop-background.png");
 }
 
 .button-1 {
@@ -107,7 +106,6 @@ body {
 	nav {
 		display: flex;
 	}
-
 	.title {
 		padding-top: 30px;
 	}
