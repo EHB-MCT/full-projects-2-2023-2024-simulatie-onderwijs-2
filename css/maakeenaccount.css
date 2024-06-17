@@ -82,4 +82,10 @@ button:hover {
 		margin-top: -80px;
 		position: absolute;
 	}
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	textarea {
+		width: 700px;
+	}
 }
