@@ -1,37 +1,40 @@
-
+.titel-event h1 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
 }
 
 .second-titel-event {
 	padding-bottom: 50px;
 	display: flex;
-	justify-content: space-between; /* Verdeel ruimte tussen de kinderen */
-	align-items: center; /* Verticaal centreren */
+	justify-content: space-between;
+	align-items: center;
 }
 
 .recenste-evenementen {
-	flex-grow: 1; /* Laat dit element de beschikbare ruimte vullen */
-	text-align: right; /* Tekst uitlijning naar rechts */
+	flex-grow: 1;
+	text-align: right;
 }
 
 .recenste-evenementen-button {
-	background-color: black; /* Knopkleur */
-	color: white; /* Tekstkleur */
-	border: none; /* Geen rand */
-	padding: 12px 0px; /* Binnenmarges */
-	font-size: 14px; /* Lettergrootte */
-	cursor: pointer; /* Cursor type */
-	border-radius: 5px; /* Afgeronde hoeken */
-	margin-left: auto; /* Duw het element naar rechts */
-	white-space: nowrap; /* Zorg ervoor dat de tekst niet afbreekt */
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 12px 0px;
+	font-size: 14px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-left: auto;
+	white-space: nowrap;
 }
 
 .recenste-evenementen-button:hover {
-	background-color: #1d5a9e; /* Kleur bij hover */
+	background-color: #1d5a9e;
 }
 
 .event-1 {
 	display: flex;
-	gap: 70px; /* Optioneel: Voeg ruimte toe tussen de elementen */
+	gap: 70px;
 }
 
 .titel1-event h2 {
@@ -41,22 +44,22 @@
 }
 
 .datum {
-	flex: 0.2; /* Deze waarde bepaalt hoe klein de div datum is vergeleken met de andere divs */
+	flex: 0.2;
 }
 
 .img-event-1 {
-	flex: 0.5; /* Deze waarde bepaalt de grootte van de img-event-1 div */
+	flex: 0.5;
 }
 
 .event1-context {
 	margin-right: 150px;
 	font-size: 15px;
-	flex: 1; /* Deze waarde bepaalt de grootte van de event1-context div */
+	flex: 1;
 }
 
 .img-event-1 img {
-	width: 100%; /* Zorg ervoor dat de afbeelding de volledige breedte van de container inneemt */
-	height: auto; /* Behoud de oorspronkelijke verhouding */
+	width: 100%;
+	height: auto;
 }
 
 .event-1 h2 {
