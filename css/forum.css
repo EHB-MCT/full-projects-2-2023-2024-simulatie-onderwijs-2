@@ -15,7 +15,7 @@
 }
 
 .search-bar {
-	width: 300px;
+	width: 500px;
 	padding: 10px;
 	border: none;
 	font-size: 16px;
@@ -67,6 +67,10 @@
 	margin-top: 40px;
 }
 
+.left-button {
+	padding-bottom: 50px;
+}
+
 .onderwerp,
 .topic1,
 .topic2,
@@ -81,8 +85,9 @@
 }
 
 .topics {
+	padding-bottom: 20px;
 	background-color: white;
-	padding: 15px;
+	padding: 35px;
 	border-radius: 30px;
 	margin-top: 15px;
 	padding-right: 50px;
@@ -123,8 +128,6 @@
 	background-color: white;
 	border-radius: 30px;
 	padding: 12px;
-	margin: 45px 0px 15px;
-	/* margin-bottom: 50px; */
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .post a {
@@ -148,6 +151,11 @@
 	padding: 12px;
 	width: 200px;
 	color: black;
+}
+
+.addcomment {
+	padding-top: 10px;
+	padding-bottom: 50px;
 }
 
 .date-comments {
