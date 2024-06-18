@@ -14,7 +14,7 @@
 .button-login {
 	display: inline-block;
 	cursor: pointer;
-	width: 90%;
+	width: 70%;
 }
 
 .login-title {
@@ -41,6 +41,12 @@
 }
 
 @media screen and (min-width: 768px) {
+
+	.button-login {
+		display: inline-block;
+		cursor: pointer;
+		width: 90%;
+	}
 	h1 {
 		color: #246cc0;
 		font-size: 45px;

@@ -29,10 +29,13 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
-	width: auto;
-	padding: 10px;
+	width: 100%;
 	margin-top: 5px;
-	border: 1px solid #ccc;
+	padding: 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(204, 204, 204);
+	border-image: initial;
 	border-radius: 5px;
 }
 
@@ -55,6 +58,19 @@ button:hover {
 	background-color: #fff8c2;
 }
 @media screen and (min-width: 768px) {
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	textarea {
+		width: 750px;
+		margin-top: 5px;
+		padding: 10px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: rgb(204, 204, 204);
+		border-image: initial;
+		border-radius: 5px;
+	}
 	.container {
 		max-width: 800px;
 	}

@@ -1,97 +1,73 @@
-.container {
+.titel-event h1 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.second-titel-event {
+	padding-bottom: 50px;
 	display: flex;
-	width: 80%;
-	max-width: 1000px;
-	background-color: white;
-	border-radius: 10px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	justify-content: space-between; /* Verdeel ruimte tussen de kinderen */
+	align-items: center; /* Verticaal centreren */
 }
 
-.calendar {
-	width: 40%;
-	background-color: #b3e6ff;
-	border-radius: 10px 0 0 10px;
-	padding: 20px;
+.recenste-evenementen {
+	flex-grow: 1; /* Laat dit element de beschikbare ruimte vullen */
+	text-align: right; /* Tekst uitlijning naar rechts */
 }
 
-.calendar-header {
+.recenste-evenementen-button {
+	background-color: black; /* Knopkleur */
+	color: white; /* Tekstkleur */
+	border: none; /* Geen rand */
+	padding: 12px 0px; /* Binnenmarges */
+	font-size: 14px; /* Lettergrootte */
+	cursor: pointer; /* Cursor type */
+	border-radius: 5px; /* Afgeronde hoeken */
+	margin-left: auto; /* Duw het element naar rechts */
+	white-space: nowrap; /* Zorg ervoor dat de tekst niet afbreekt */
+}
+
+.recenste-evenementen-button:hover {
+	background-color: #1d5a9e; /* Kleur bij hover */
+}
+
+.event-1 {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	gap: 70px; /* Optioneel: Voeg ruimte toe tussen de elementen */
 }
 
-.calendar-header h2 {
-	margin: 0;
-	font-size: 1.5em;
-	color: #0073e6;
+.titel1-event h2 {
+	padding-bottom: 20px;
+	font-family: "Outfit", sans-serif;
+	font-size: 50px;
 }
 
-.calendar-header .nav {
-	font-size: 1.5em;
-	cursor: pointer;
-	color: #0073e6;
+.datum {
+	flex: 0.2; /* Deze waarde bepaalt hoe klein de div datum is vergeleken met de andere divs */
 }
 
-.days-of-week {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 10px;
+.img-event-1 {
+	flex: 0.5; /* Deze waarde bepaalt de grootte van de img-event-1 div */
+}
+
+.event1-context {
+	margin-right: 150px;
+	font-size: 15px;
+	flex: 1; /* Deze waarde bepaalt de grootte van de event1-context div */
+}
+
+.img-event-1 img {
+	width: 100%; /* Zorg ervoor dat de afbeelding de volledige breedte van de container inneemt */
+	height: auto; /* Behoud de oorspronkelijke verhouding */
+}
+
+.event-1 h2 {
+	color: #246cc0;
 	font-weight: bold;
+	font-size: 20px;
 }
 
-.days-of-week div {
-	width: 14%;
-	text-align: center;
-	color: #0073e6;
-}
-
-.calendar-days {
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 10px;
-}
-
-.calendar-days div {
-	width: 14%;
-	height: 40px;
-	text-align: center;
-	line-height: 40px;
-	margin: 5px 0;
-	border-radius: 5px;
-	cursor: pointer;
-}
-
-.calendar-days .today {
-	background-color: #0073e6;
-	color: white;
-}
-
-.content {
-	width: 60%;
-	padding: 20px;
-	border-radius: 0 10px 10px 0;
-}
-
-.event {
-	background-color: #f7f7f7;
-	padding: 20px;
-	border-radius: 10px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.event h3 {
-	margin-top: 0;
-}
-
-button {
-	background-color: #0073e6;
-	color: white;
-	border: none;
-	padding: 10px 20px;
-	border-radius: 5px;
-	cursor: pointer;
-}
-
-button:hover {
-	background-color: #005bb5;
+.event-1 img {
+	border-radius: 15px;
 }
