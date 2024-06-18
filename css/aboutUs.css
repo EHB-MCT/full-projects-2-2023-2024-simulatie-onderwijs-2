@@ -37,7 +37,7 @@
 	}
 
 	.we-stand {
-		padding-top: 100px;
+		padding-top: 50px;
 		text-align: center;
 	}
 
@@ -70,6 +70,14 @@
 
 	.button-4 {
 		margin-top: 60px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.button-4 a {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 }
 
@@ -163,5 +171,5 @@
 	}
 }
 .title2 {
-	padding-top: 25px;
+	padding-top: 5px;
 }

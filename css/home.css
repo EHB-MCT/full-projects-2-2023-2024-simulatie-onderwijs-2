@@ -1,7 +1,6 @@
 nav {
 	display: none;
 }
-
 .title {
 	padding-top: 130px;
 }
@@ -107,7 +106,6 @@ body {
 	nav {
 		display: flex;
 	}
-
 	.title {
 		padding-top: 30px;
 	}
