@@ -7,14 +7,81 @@
 	display: block;
 	margin-top: 10px;
 }
+
+.input-fields {
+	padding-bottom: 20px;
+}
 .input-fields input[type="email"] {
 	margin-bottom: 20px;
 }
 
-.button-login {
+.button-login2 {
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+	width: 100%;
+}
+
+.button-login2 .button-registration,
+.button-login2 .button-login {
+	width: 48%;
 	display: inline-block;
 	cursor: pointer;
-	width: 70%;
+}
+
+.button-login2 .button-registration {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Outfit", sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 15px;
+	border-radius: 60px;
+	background-color: black;
+	transition: background-color 0.5s ease;
+	margin: 5px;
+	width: 100%;
+}
+
+.button-login2 .button-registration:hover {
+	background-color: #fff8c2;
+	color: black;
+}
+
+.button-7 .button-login {
+	justify-content: center;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	border-radius: 60px;
+	background-color: black;
+	transition: background-color 0.5s;
+	transition-timing-function: ease;
+	padding: 12px 30px;
+	font-weight: bold;
+	font-family: "Outfit", sans-serif;
+}
+
+.button-login2 .button-login {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Outfit", sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 15px;
+	border-radius: 60px;
+	background-color: black;
+	transition: background-color 0.5s ease;
+	padding: 12px 30px;
+	margin: 5px;
+}
+
+.button-login2 .button-registration:hover,
+.button-login2 .button-login:hover {
+	background-color: #fff8c2;
+	color: black;
 }
 
 .login-title {
@@ -22,6 +89,7 @@
 }
 
 .right-text {
+	background-color: red;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -33,6 +101,11 @@
 .left-img img {
 	display: none;
 }
+
+.left-img {
+	background-color: blue;
+}
+
 .wrapperlogin {
 	padding-top: 0;
 	align-items: center;
@@ -41,12 +114,12 @@
 }
 
 @media screen and (min-width: 768px) {
-
 	.button-login {
 		display: inline-block;
 		cursor: pointer;
 		width: 90%;
 	}
+
 	h1 {
 		color: #246cc0;
 		font-size: 45px;
