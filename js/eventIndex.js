@@ -12,7 +12,7 @@ function fetchData() {
 		.then((response) => response.json())
 		.then((data) => {
 			data.items.forEach((eventData) => {
-				const eventInstance = new Event(eventData.context, eventData.datum, eventData.titel, eventData.img);
+				const eventInstance = new Event(eventData.context, eventData.datum, eventData.titel, eventData.img, eventData.uur, eventData.plaats);
 				list.push(eventInstance);
 			});
 

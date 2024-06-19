@@ -1,3 +1,75 @@
+.background > div[class^="image"] {
+	transition: transform 0.2s ease-out;
+}
+
+.imagebubblelogin1 {
+	position: absolute;
+	scale: 10%;
+	left: -800px;
+	top: -560px;
+	z-index: 10;
+}
+
+.line1login {
+	position: absolute;
+	z-index: -8;
+	left: 155px;
+	top: 150px;
+	width: 560px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(18deg);
+	transform-origin: top left;
+}
+
+.imagebubblelogin2 {
+	position: absolute;
+	scale: 10%;
+	left: -260px;
+	top: -380px;
+	z-index: 10;
+}
+
+.line2login {
+	position: absolute;
+	z-index: -8;
+	left: 690px;
+	top: 330px;
+	width: 660px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(2deg);
+	transform-origin: top left;
+}
+
+.imagebubblelogin3 {
+	position: absolute;
+	scale: 10%;
+	left: 410px;
+	top: -355px;
+	z-index: 10;
+}
+
+.line3login {
+	position: absolute;
+	z-index: -8;
+	left: 1360px;
+	top: 360px;
+	width: 350px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(130deg);
+	transform-origin: top left;
+}
+
+.imagebubblelogin4 {
+	position: absolute;
+	scale: 10%;
+	left: 250px;
+	top: -170px;
+	z-index: 10;
+}
+
 .input-fields input {
 	border: 1px solid #ccc;
 	border-radius: 60px;
