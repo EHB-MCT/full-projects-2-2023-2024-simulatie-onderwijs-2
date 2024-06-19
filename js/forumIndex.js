@@ -5,8 +5,10 @@ const list = [];
 function fetchData() {
 	console.log("Fetching data...");
 
+	// Clear existing posts
 	document.getElementById("posts").innerHTML = "";
 
+	// Clear the list to avoid duplicates
 	list.length = 0;
 
 	const apiUrl =
@@ -16,12 +18,14 @@ function fetchData() {
 		.then((response) => response.json())
 		.then((data) => {
 			data.items.forEach((postData) => {
+				const username = decodeToken(postData.userData); // Decode the token to get the username
 				const post = new Forum(
 					postData.context,
 					postData.datum,
 					postData.titel,
 					postData.img,
-					postData.comments
+					postData.comments,
+					username // Pass the username to the Forum class
 				);
 				list.push(post);
 			});
@@ -31,6 +35,12 @@ function fetchData() {
 		.catch((error) => {
 			console.error("Error fetching data:", error);
 		});
+}
+
+function decodeToken(token) {
+	// Assuming the token is a JWT, use jwt-decode to extract the username
+	const decoded = jwt_decode(token);
+	return decoded.username; // Adjust based on how the username is stored in the token
 }
 
 function displayPosts() {
@@ -51,6 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			titel: formData.get("titel"),
 			context: formData.get("context"),
 			img: formData.get("img"),
+			userData: localStorage.getItem("authToken"), // Add the user token from localStorage
 		};
 		postData(data);
 	});
@@ -73,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			})
 			.then((responseData) => {
 				console.log("Success:", responseData);
-
+				// Fetch the data again to update the list of posts
 				fetchData();
 			})
 			.catch((error) => {
