@@ -44,6 +44,11 @@
 	width: 100%;
 }
 
+.button-login2 .button-registration:hover {
+	background-color: #fff8c2;
+	color: black;
+}
+
 .button-7 .button-login {
 	justify-content: center;
 	text-decoration: none;
