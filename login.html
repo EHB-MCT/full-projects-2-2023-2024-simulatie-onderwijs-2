@@ -7,7 +7,10 @@
 		<link href="css/reset.css" rel="stylesheet" />
 		<link href="css/main backup.css" rel="stylesheet" />
 		<link rel="stylesheet" href="css/login.css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+		/>
 		<script src="/js/login.js" defer type="module"></script>
 	</head>
 	<body>
@@ -28,7 +31,9 @@
 						<a href="educatie.html"><li>Educatie</li></a>
 						<a href="forum.html" target="_blank"><li>Forum</li></a>
 						<a href="contact.html" target="_blank"><li>Contact</li></a>
-						<a href="login.html" target="_blank"><li>Login <i class="icoonlogin fas fa-user"></i></li></a>
+						<a href="login.html" target="_blank"
+							><li>Login <i class="icoonlogin fas fa-user"></i></li
+						></a>
 					</ul>
 				</div>
 			</nav>
@@ -42,7 +47,10 @@
 					<li><a href="educatie.html">Educatie</a></li>
 					<li><a href="forum.html">Forum</a></li>
 					<li><a href="contact.html">Contact</a></li>
-					<li><a href="login.html">Log In <i class="icoonlogin fas fa-user"></i></a>
+					<li>
+						<a href="login.html"
+							>Log In <i class="icoonlogin fas fa-user"></i
+						></a>
 					</li>
 				</ul>
 			</div>
@@ -56,31 +64,48 @@
 					</div>
 					<div class="input-fields">
 						<input type="email" id="login-email" placeholder="E-mail*" />
-						<input type="password" id="login-password" placeholder="Wachtwoord*" />
+						<input
+							type="password"
+							id="login-password"
+							placeholder="Wachtwoord*"
+						/>
 						<a href="#"><p>Je wachtwoord vergeten?</p></a>
 					</div>
 					<div class="button-login2">
 						<button class="button-login" onclick="login()">Log in</button>
-						<button class="button-registration" onclick="showRegistration()">Maak een nieuw account</button>
+						<button class="button-registration" onclick="showRegistration()">
+							Maak een nieuw account
+						</button>
 					</div>
 				</div>
 			</div>
 			<div class="registration" id="registration" style="display: none">
-				<div class="left-img">
-					<img src="css/images/leerkracht_bord.jpg" alt="uitleg leerkracht" />
-				</div>
 				<div class="right-text">
 					<div class="login-text">
 						<h1 class="login-title">Maak een nieuw account</h1>
 					</div>
 					<div class="input-fields">
-						<input type="text" id="register-username" placeholder="Gebruikersnaam*" />
+						<input
+							type="text"
+							id="register-username"
+							placeholder="Gebruikersnaam*"
+						/>
 						<input type="email" id="register-email" placeholder="E-mail*" />
-						<input type="password" id="register-password" placeholder="Wachtwoord*" />
-						<input type="password" id="register-password-confirm" placeholder="Bevestig Wachtwoord*" />
+						<input
+							type="password"
+							id="register-password"
+							placeholder="Wachtwoord*"
+						/>
+						<input
+							type="password"
+							id="register-password-confirm"
+							placeholder="Bevestig Wachtwoord*"
+						/>
 					</div>
 					<div class="button-7">
-						<button class="button-login" onclick="register()">Registreren</button>
+						<button class="button-login" onclick="register()">
+							Registreren
+						</button>
 					</div>
 				</div>
 			</div>

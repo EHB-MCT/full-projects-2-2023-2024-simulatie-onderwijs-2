@@ -89,7 +89,6 @@
 }
 
 .right-text {
-	background-color: red;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -102,8 +101,9 @@
 	display: none;
 }
 
-.left-img {
-	background-color: blue;
+#registration.registration {
+	display: flex;
+	padding-top: 100px;
 }
 
 .wrapperlogin {
