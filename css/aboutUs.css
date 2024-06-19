@@ -82,6 +82,165 @@
 }
 
 @media (min-width: 1024px) {
+	.background > div[class^="image"] {
+		transition: transform 0.2s ease-out;
+	}
+	.imagebubble1 {
+		position: absolute;
+		scale: 10%;
+		left: -800px;
+		top: -560px;
+		z-index: 10;
+	}
+
+	.line1bubble {
+		position: absolute;
+		z-index: 8;
+		left: 155px;
+		top: 150px;
+		width: 450px;
+		height: 1px;
+		background-color: grey;
+		transform: rotateZ(5deg);
+		transform-origin: top left;
+	}
+	.imagebubble2 {
+		position: absolute;
+		scale: 10%;
+		left: -350px;
+		top: -520px;
+		z-index: 10;
+	}
+
+	.line2bubble {
+		position: absolute;
+		z-index: 8;
+		left: 610px;
+		top: 190px;
+		width: 540px;
+		height: 1px;
+		background-color: grey;
+		transform: rotateZ(9deg);
+		transform-origin: top left;
+	}
+	.imagebubble3 {
+		position: absolute;
+		scale: 10%;
+		left: 200px;
+		top: -430px;
+		z-index: 10;
+	}
+
+	.line3bubble {
+		position: absolute;
+		z-index: 8;
+		left: 1145px;
+		top: 290px;
+		width: 580px;
+		height: 1px;
+		background-color: grey;
+		transform: rotateZ(160deg);
+		transform-origin: top left;
+	}
+	.imagebubble4 {
+		position: absolute;
+		scale: 10%;
+		left: -345px;
+		top: -223px;
+		z-index: 10;
+	}
+
+	.line4bubble {
+		position: absolute;
+		z-index: 8;
+		left: 600px;
+		top: 485px;
+		width: 255px;
+		height: 1px;
+		background-color: grey;
+		transform: rotateZ(130deg);
+		transform-origin: top left;
+	}
+	.imagebubble5 {
+		position: absolute;
+		scale: 10%;
+		left: -530px;
+		top: -20px;
+		z-index: 10;
+	}
+
+	.line5bubble {
+		position: absolute;
+		z-index: 8;
+		left: 420px;
+		top: 700px;
+		width: 250px;
+		height: 1px;
+		background-color: grey;
+		transform: rotateZ(130deg);
+		transform-origin: top left;
+	}
+
+	.imagebubble6 {
+		position: absolute;
+		scale: 10%;
+		left: -695px;
+		top: 180px;
+		z-index: 10;
+	}
+
+	.line6bubble {
+		position: absolute;
+		z-index: 8;
+		left: 440px;
+		top: 1050px;
+		width: 250px;
+		height: 1px;
+		background-color: grey;
+		transform: rotateZ(220deg);
+		transform-origin: top left;
+	}
+
+	.imagebubble7 {
+		position: absolute;
+		scale: 10%;
+		left: -510px;
+		top: 340px;
+		z-index: 10;
+	}
+
+	.line7bubble {
+		position: absolute;
+		z-index: 8;
+		left: 540px;
+		top: 1135px;
+		width: 120px;
+		height: 1px;
+		background-color: grey;
+		transform: rotateZ(220deg);
+		transform-origin: top left;
+	}
+
+	.imagebubble8 {
+		position: absolute;
+		scale: 10%;
+		left: -420px;
+		top: 420px;
+		z-index: 10;
+	}
+
+	.line8bubble {
+		position: absolute;
+		z-index: 8;
+		left: 535px;
+		top: 1135px;
+		width: 198px;
+		height: 1px;
+		background-color: grey;
+		transform: rotateZ(90deg);
+		transform-origin: top left;
+	}
+
 	.deel1 {
 		display: flex;
 	}
@@ -102,10 +261,11 @@
 	.we-do {
 		padding-top: 300px;
 		margin-left: 120px;
+		z-index: 15;
 	}
-	.we-do h4 {
+	/* .we-do h4 {
 		padding-top: 30px;
-	}
+	} */
 	.we-do p {
 		margin-top: 20px;
 	}

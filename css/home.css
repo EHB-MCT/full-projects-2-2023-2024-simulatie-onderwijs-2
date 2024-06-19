@@ -39,7 +39,7 @@ body {
 }
 
 .background > div[class^="image"] {
-	transition: transform 0.1s ease-out; /* Adjust the duration as needed */
+	transition: transform 0.2s ease-out;
 }
 
 .image1 {
