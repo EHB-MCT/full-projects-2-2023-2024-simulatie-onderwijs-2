@@ -1,10 +1,11 @@
 export default class Forum {
-	constructor(context, datum, titel, images, comments) {
+	constructor(context, datum, titel, images, comments, username) {
 		this._context = context;
 		this._datum = datum;
 		this._titel = titel;
 		this._images = images;
 		this._comments = comments;
+		this._username = username; // Add a property to store the username
 	}
 
 	get context() {
@@ -27,6 +28,10 @@ export default class Forum {
 		return this._comments;
 	}
 
+	get username() {
+		return this._username;
+	}
+
 	get htmlString() {
 		return `<div id="posts">
         <div class="post">
@@ -34,6 +39,7 @@ export default class Forum {
                 <img src="${this.images}" alt="docent" />
             </div>
             <div class="right-info">
+                <p>${this.username}</p> <!-- Display the username -->
                 <h3>${this.titel}</h3>
                 <p>${this.context}</p>
                 <div class="date-comments">
@@ -50,7 +56,7 @@ export default class Forum {
                                 ></path>
                             </g>
                         </svg>
-                        <p>${this.updated}</p>
+                        <p>${this.datum}</p>
                     </div>
                     <div class="comment">${this.comments}</div>
                 </div>
