@@ -50,7 +50,7 @@ export default class Forum {
                                 ></path>
                             </g>
                         </svg>
-                        <p>${this.datum}</p>
+                        <p>${this.created}</p>
                     </div>
                     <div class="comment">${this.comments}</div>
                 </div>

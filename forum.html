@@ -108,8 +108,18 @@
 			</div>
 			<div class="buttons-topics">
 				<div class="left-buttons">
-					<div class="button-2 a">
-						<a href="#">Start nieuwe discussie</a>
+					<div class="create-post-form">
+						<h2>Create New Post</h2>
+						<form id="postForm">
+							<label for="titel">Title:</label>
+							<input type="text" id="titel" name="titel" required /><br /><br />
+							<label for="context">Content:</label>
+							<textarea id="context" name="context" rows="4" required></textarea
+							><br /><br />
+							<label for="img">Image URL:</label>
+							<input type="url" id="img" name="img" /><br /><br />
+							<button type="submit">Submit</button>
+						</form>
 					</div>
 					<select>
 						<option>Nieuwste eerst</option>
