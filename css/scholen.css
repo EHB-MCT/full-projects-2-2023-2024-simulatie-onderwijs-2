@@ -1,5 +1,5 @@
 .background > div[class^="image"] {
-	transition: transform 0.2s ease-out;
+	transition: transform 0.3s ease-out;
 }
 
 .imagebubbleantwerpen1 {
@@ -259,4 +259,10 @@
 
 .research h1 {
 	padding-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+	.background {
+		display: none;
+	}
 }

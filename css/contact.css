@@ -141,6 +141,13 @@ button:hover {
 	background-color: #fff8c2;
 	color: black;
 }
+
+@media screen and (max-width: 480px) {
+	.background {
+		display: none;
+	}
+}
+
 @media screen and (min-width: 768px) {
 	input[type="text"],
 	input[type="email"],

@@ -8,21 +8,18 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 40px;
-
 	font-size: 18px;
 }
 
-.topnav h1 {
-	display: inline;
-	padding-right: 20px;
+.topnav ul {
+	padding-right: -5px;
 }
 
 .topnav li {
 	display: inline;
-	padding-right: 20px;
+	margin-left: 38px;
 }
 
-/* Bron: https://stackoverflow.com/questions/28623446/hover-effect-expand-bottom-border */
 .topnav a {
 	padding: 3px 0;
 	color: black;
@@ -40,6 +37,7 @@ a:hover {
 	background-size: 100% 3px;
 }
 
-.topnav h1 {
-	padding: 0;
+.navigationlogo img {
+	max-height: 40px;
+	width: auto;
 }
