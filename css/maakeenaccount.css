@@ -89,3 +89,9 @@ button:hover {
 		width: 700px;
 	}
 }
+
+@media screen and (max-width: 480px) {
+	.background {
+		display: none;
+	}
+}

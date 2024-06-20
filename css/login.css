@@ -185,6 +185,12 @@
 	flex-wrap: wrap;
 }
 
+@media screen and (max-width: 480px) {
+	.background {
+		display: none;
+	}
+}
+
 @media screen and (min-width: 768px) {
 	.button-login {
 		display: inline-block;

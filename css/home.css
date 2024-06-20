@@ -403,3 +403,9 @@ body {
 /* .image {
 	transition: transform 0.2s ease; 
 } */
+
+@media screen and (max-width: 480px) {
+	.background {
+		display: none;
+	}
+}

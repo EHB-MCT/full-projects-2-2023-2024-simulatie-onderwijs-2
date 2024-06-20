@@ -260,3 +260,9 @@
 .research h1 {
 	padding-bottom: 10px;
 }
+
+@media screen and (max-width: 480px) {
+	.background {
+		display: none;
+	}
+}
