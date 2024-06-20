@@ -1,57 +1,78 @@
-header {
-	margin: 50px;
+h1 {
+	padding-top: 50px;
+	padding-bottom: 20px;
 }
-h2 {
-	margin-top: 80px;
-	font-weight: bold;
-	color: #246cc0;
-	font-size: 40px;
-	text-align: center;
+
+.box-box img {
 	width: 100%;
+	border-radius: 15px;
 }
-h3 {
-	margin-top: 30px;
-	font-weight: bold;
+
+.box-in-two h2 {
+	font-size: 25px;
 	color: #246cc0;
-	font-size: 20px;
-}
-p {
-	font-weight: 300;
-	font-size: 13px;
-}
-.btn {
-	margin-top: 20px;
-	text-align: left;
+	font-family: "Outfit", sans-serif;
+	font-weight: bold;
 }
 
-.btn a {
-	background-color: black;
-	font-size: 16px;
-	border: none;
-	border-radius: 30px;
-	color: white;
-	display: inline-block;
-	padding: 15px 20px;
-	text-decoration: none;
+.tips-tricks {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
 }
 
-.btn a:hover {
-	background-color: #fff8c2;
+.box-box,
+.box-in-two {
+	flex: 1;
+	margin: 10px;
 }
 
 .box-box {
+	margin-right: 20px;
 }
 
-@media screen and (min-width: 768px) {
-	h2 {
-		text-align: left;
+.box-in-two {
+	padding-left: 20px;
+}
+
+.btn-tips {
+	padding-top: 50px;
+}
+.btn-tips a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	border-radius: 60px;
+	background-color: black;
+	transition: background-color 0.5s;
+	transition-timing-function: ease;
+	padding: 12px 30px;
+	font-weight: bold;
+}
+
+.btn-tips a:hover {
+	background-color: #fff8c2;
+	color: black;
+}
+
+@media screen and (max-width: 768px) {
+	.tips-tricks {
+		display: block;
 	}
-	p {
-		font-size: 16px;
+
+	.box-in-two h2 {
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
-	.box-box {
-		margin-left: 700px;
-		margin-top: 50px;
-		width: 600px;
+
+	.box-box,
+	.box-in-two {
+		flex: none;
+		margin: 10px 0;
+		padding: 0;
+	}
+
+	.btn-tips {
+		padding-top: 50px;
 	}
 }

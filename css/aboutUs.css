@@ -5,7 +5,8 @@
 
 	.we-are img {
 		padding-top: 20px;
-		width: 40%;
+		padding-bottom: 50px;
+		width: 50%;
 		border-radius: 15%;
 	}
 
@@ -38,7 +39,7 @@
 
 	.we-stand {
 		padding-top: 50px;
-		text-align: center;
+		text-align: left;
 	}
 
 	.we-stand img {
@@ -249,7 +250,7 @@
 	}
 	.we-are img {
 		padding-top: 20px;
-		width: 40%;
+		width: 50%;
 		border-radius: 15%;
 	}
 	.we-are p {
@@ -279,7 +280,6 @@
 		justify-content: center;
 	}
 	.we-stand {
-		padding-top: 100px;
 		text-align: left;
 		display: flex;
 		align-items: center;
@@ -291,8 +291,21 @@
 		width: 20%;
 	}
 
+	.missie-img img {
+		width: 30%;
+	}
+
+	.waarden-img img {
+		width: 25%;
+	}
+
+	.we-stand > div {
+		flex: 1;
+		margin: 0 30px; /* Optioneel: pas deze waarde aan voor meer of minder ruimte tussen de divs */
+	}
+
 	.missie {
-		padding-top: 5px;
+		padding-left: 50px;
 	}
 
 	.missie p {
@@ -300,7 +313,8 @@
 	}
 
 	.waarden {
-		padding-top: 20px;
+		padding-left: 50px;
+		padding-top: 100px;
 	}
 
 	.waarden p {
@@ -308,8 +322,12 @@
 	}
 
 	.visie {
+		padding-left: 50px;
+
+		padding-top: 28px;
 		width: auto;
 	}
+
 	h5 {
 		padding-bottom: 5px;
 		padding-top: 10px;
@@ -318,8 +336,19 @@
 		font-family: "Outfit", sans-serif;
 		font-weight: bold;
 	}
+
 	.button-4 {
 		margin-top: 60px;
+		margin-bottom: 50px;
+	}
+
+	footer {
+		padding-top: 30px;
+	}
+
+	.button-4 {
+		display: flex;
+		justify-content: center;
 	}
 
 	footer {
@@ -331,7 +360,7 @@
 	}
 }
 .title2 {
-	padding-top: 5px;
+	padding-top: 80px;
 }
 
 @media screen and (max-width: 480px) {
