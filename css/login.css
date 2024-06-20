@@ -154,6 +154,7 @@
 .button-login2 .button-login:hover {
 	background-color: #fff8c2;
 	color: black;
+	border-color: #fff8c2;
 }
 
 .login-title {
