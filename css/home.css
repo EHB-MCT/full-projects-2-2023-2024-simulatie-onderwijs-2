@@ -9,10 +9,12 @@ nav {
 	padding-top: 50px;
 }
 .title p {
+	padding-top: 7px;
 	padding-left: 50px;
-	font-size: 15px;
+	font-size: 13px;
 	color: black;
 	font-family: "Outfit", sans-serif;
+	font-weight: lighter;
 }
 
 .wrapper {
@@ -230,6 +232,7 @@ body {
 }
 
 .title-text p {
+	padding-top: 10px;
 	font-size: 15px;
 }
 
@@ -266,7 +269,7 @@ body {
 .research-banner {
 	border-radius: 10px;
 	background-color: white;
-	padding: 28px 30px;
+	padding: 45px 30px;
 	width: auto;
 }
 .research-banner p {
@@ -275,14 +278,24 @@ body {
 
 .research-1 p {
 	padding-top: 15px;
-
+	padding-bottom: 10px;
 	color: grey;
 	font-size: 15px;
+}
+
+.research-1 .text-research p {
+	color: black;
+}
+
+.research-2 .text-research p {
+	color: black;
 }
 
 .research-2 p {
 	padding-top: 15px;
 	color: grey;
+	padding-bottom: 10px;
+
 	font-size: 15px;
 }
 
@@ -399,7 +412,3 @@ body {
 		padding-top: 30px;
 	}
 }
-
-/* .image {
-	transition: transform 0.2s ease; 
-} */
