@@ -1,51 +1,63 @@
 <!DOCTYPE html>
-<script src="js/index.js"></script>
-
-<head>
-	<link href="css/reset.css" rel="stylesheet" />
-	<link href="css/main backup.css" rel="stylesheet" />
-	<link href="css/maakeenaccount.css" rel="stylesheet" />
-	<link rel="stylesheet" href="css/events.css" />
-	<link
-		rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-		integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-		crossorigin="anonymous"
-		referrerpolicy="no-referrer"
-	/>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Events</title>
-</head>
-<body>
-	<div class="wrapper">
-		<nav role="navigation">
-			<div class="navigationlogo mobile">
-				<h1><a href="index.html">NSH</a></h1>
-			</div>
-			<div id="menuToggle">
-				<input type="checkbox" />
-
-				<span></span>
-				<span></span>
-				<span></span>
-
-				<ul id="menu" class="hamburgermenu">
-					<a href="index.html"><li>Home</li></a>
-					<a href="overons.html"><li>Over Ons</li></a>
-					<a href="events.html"><li>Events</li></a>
-					<a href="educatie.html"><li>Educatie</li></a>
-					<a href="forum.html" target="_blank"><li>Forum</li></a>
-					<a href="contact.html" target="_blank"><li>Contact</li></a>
-					<a href="login.html" target="_blank"
-						><li>Login <i class="icoonlogin fas fa-user"></i></li
-					></a>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Events</title>
+		<link href="css/reset.css" rel="stylesheet" />
+		<link href="css/main backup.css" rel="stylesheet" />
+		<link href="css/maakeenaccount.css" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+			integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<script type="module" src="js/eventIndex.js" defer></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<nav role="navigation">
+				<div class="navigationlogo mobile">
+					<h1><a href="index.html">NSH</a></h1>
+				</div>
+				<div id="menuToggle">
+					<input type="checkbox" />
+					<span></span>
+					<span></span>
+					<span></span>
+					<ul id="menu" class="hamburgermenu">
+						<a href="index.html"><li>Home</li></a>
+						<a href="OverOns.html"><li>Over Ons</li></a>
+						<a href="events.html"><li>Events</li></a>
+						<a href="educatie.html"><li>Educatie</li></a>
+						<a href="forum.html" target="_blank"><li>Forum</li></a>
+						<a href="contact.html" target="_blank"><li>Contact</li></a>
+						<a href="login.html" target="_blank">
+							<li>Login <i class="icoonlogin fas fa-user"></i></li>
+						</a>
+					</ul>
+				</div>
+			</nav>
+			<div class="topnav">
+				<div class="navigationlogo noMobile">
+					<h1><a href="index.html">NSH</a></h1>
+				</div>
+				<ul>
+					<li><a href="OverOns.html">Over Ons</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="educatie.html">Educatie</a></li>
+					<li><a href="forum.html">Forum</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li>
+						<a href="login.html">Log In <i class="icoonlogin fas fa-user"></i></a>
+					</li>
 				</ul>
 			</div>
-		</nav>
-		<div class="topnav">
-			<div class="navigationlogo noMobile">
-				<h1><a href="index.html">NSH</a></h1>
+
+			<div class="second-titel-event">
+				<h1>Opkomende evenementen</h1>
 			</div>
 			<ul>
 				<li><a href="OverOns.html" class="over-ons">Over Ons</a></li>
@@ -73,60 +85,52 @@
 					<div>FRI</div>
 					<div>SAT</div>
 					<div>SUN</div>
+			<div id="event-1">
+				<div class="datum">
+					<h2>Datum</h2>
+					<div class="plaats">
+						<p><i style="font-size: 24px" class="fas">&#xf3c5;</i>Plaats</p>
+					</div>
+					<div class="uur">
+						<p><i style="font-size: 24px" class="far">&#xf017;</i>Uur</p>
+					</div>
 				</div>
-				<div class="calendar-days">
-					<div></div>
-					<div></div>
-					<div>1</div>
-					<div>2</div>
-					<div class="today">3</div>
-					<div>4</div>
-					<div>5</div>
-					<div>6</div>
-					<div>7</div>
-					<div>8</div>
-					<div>9</div>
-					<div>10</div>
-					<div>11</div>
-					<div>12</div>
-					<div>13</div>
-					<div>14</div>
-					<div>15</div>
-					<div>16</div>
-					<div>17</div>
-					<div>18</div>
-					<div>19</div>
-					<div>20</div>
-					<div>21</div>
-					<div>22</div>
-					<div>23</div>
-					<div>24</div>
-					<div>25</div>
-					<div>26</div>
-					<div>27</div>
-					<div>28</div>
-					<div>29</div>
-					<div>30</div>
-					<div>31</div>
+				<div class="img-event-1">
+					<img src="css/images/19138087478_fab7b85027_z.jpg" alt="Event Image" />
 				</div>
-			</div>
-			<div class="content">
-				<h2>Vrijdag 3 JANUARI</h2>
-				<div class="event">
-					<h5>Simulatie</h5>
-					<p>
-						Ons doel is om een netwerk op te bouwen waar we zowel best practice kunnen bespreken en/of delen maar ook samen sterker naar voor kunnen komen als 1 community bij het publiceren van onderzoeken Ons doel is om een netwerk op te bouwen waar
-						we zowel best practice kunnen bespreken en/of delen maar ook samen sterker naar voor kunnen komen als 1 community bij het publiceren van onderzoeken
-					</p>
-					<p><strong>Erasmushogeschool</strong></p>
-					<p>
-						<a href="mailto:Erasmushogeschool.be">Erasmushogeschool.be</a>
-					</p>
-					<div class="button-2">
-						<a href=""> Join us</a>
+				<div class="event1-context">
+					<div class="titel1-event">
+						<h1>Simulatie training geboorte</h1>
+					</div>
+					<div class="context1-event">
+						<p>
+							Een geboortensimulatie modelleert de dynamiek van geboortes in een populatie door variabelen zoals geboortecijfers en geslachtsverdeling te gebruiken. Het simuleert het aantal geboorten, rekening houdend met factoren zoals
+							seizoensvariaties en socio-economische invloeden. Dit helpt om de bevolkingsgroei en -verandering realistisch weer te geven. Onderzoekers kunnen verschillende scenario's testen, zoals beleidswijzigingen en economische omstandigheden, om
+							voorspellingen te doen. Zo ondersteunt de simulatie beleidsmakers bij het nemen van geïnformeerde beslissingen.
+						</p>
+					</div>
+					<div class="button-event1">
+						<ul>
+							<li><a href="aboutme.html">Schrijf je in</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</body>
+		<footer>
+			<div class="footer">
+				<div class="row">
+					<ul>
+						<li><a href="OverOns.html">Over Ons</a></li>
+						<li><a href="events.html">Events</a></li>
+						<li><a href="educatie.html">Educatie</a></li>
+						<li><a href="forum.html">Forum</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="login.html">Log in</a></li>
+					</ul>
+				</div>
+				<div class="row">NSH Copyright © 2024 - All rights reserved</div>
+			</div>
+		</footer>
+	</body>
+</html>

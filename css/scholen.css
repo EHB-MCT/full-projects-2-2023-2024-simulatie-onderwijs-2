@@ -4,6 +4,7 @@
 }
 
 .school-img img {
+	padding-top: 50px;
 	width: 50%;
 }
 
@@ -17,6 +18,7 @@
 }
 
 .school-pxl p {
+	color: black;
 	margin-top: 20px;
 }
 
@@ -25,15 +27,21 @@
 	padding-bottom: 70px;
 }
 
+.dropdown-content a {
+	color: black;
+	font-family: "Outfit", sans-serif;
+	font-weight: bold;
+}
+
 /* Basis styling blijft zoals het is */
 
 /* Zorg ervoor dat de dropbtn standaard zichtbaar is */
-.dropbtn {
-	display: block;
-}
 
 /* Verberg de dropbtn op grotere schermen */
 @media screen and (min-width: 768px) {
+	.school-pxl p {
+		color: black;
+	}
 	.researches {
 		margin-top: 600px;
 	}
@@ -47,31 +55,24 @@
 		position: absolute;
 	}
 
-	.dropbtn {
-		display: none;
-	}
-
-	.school-container {
-	}
-
 	.titel-school {
 		padding-top: 70px;
 		position: absolute;
 
-		margin-left: 50rem;
+		margin-left: 45rem;
 	}
 
 	.text-school {
 		position: absolute;
 
-		padding-top: 200px;
-		margin-left: 50rem;
+		padding-top: 150px;
+		margin-left: 45rem;
 		width: 35%;
 	}
 
 	.button-6 {
-		padding-top: 400px;
-		margin-left: 50rem;
+		padding-top: 350px;
+		margin-left: 45rem;
 
 		position: absolute;
 	}
@@ -104,7 +105,7 @@
 	border-width: 0 3px 3px 0;
 	display: inline-block;
 	padding: 5px;
-	margin-left: 10px; /* Voeg deze regel toe om ruimte te creëren */
+	margin-left: 10px;
 	margin-bottom: 3px;
 }
 

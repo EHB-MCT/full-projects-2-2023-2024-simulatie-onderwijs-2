@@ -1,3 +1,75 @@
+.background > div[class^="image"] {
+	transition: transform 0.2s ease-out;
+}
+
+.imagebubblelogin1 {
+	position: absolute;
+	scale: 10%;
+	left: -800px;
+	top: -560px;
+	z-index: 10;
+}
+
+.line1login {
+	position: absolute;
+	z-index: -8;
+	left: 155px;
+	top: 150px;
+	width: 560px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(18deg);
+	transform-origin: top left;
+}
+
+.imagebubblelogin2 {
+	position: absolute;
+	scale: 10%;
+	left: -260px;
+	top: -380px;
+	z-index: 10;
+}
+
+.line2login {
+	position: absolute;
+	z-index: -8;
+	left: 690px;
+	top: 330px;
+	width: 660px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(2deg);
+	transform-origin: top left;
+}
+
+.imagebubblelogin3 {
+	position: absolute;
+	scale: 10%;
+	left: 410px;
+	top: -355px;
+	z-index: 10;
+}
+
+.line3login {
+	position: absolute;
+	z-index: -8;
+	left: 1360px;
+	top: 360px;
+	width: 350px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(130deg);
+	transform-origin: top left;
+}
+
+.imagebubblelogin4 {
+	position: absolute;
+	scale: 10%;
+	left: 250px;
+	top: -170px;
+	z-index: 10;
+}
+
 .input-fields input {
 	border: 1px solid #ccc;
 	border-radius: 60px;
@@ -7,14 +79,81 @@
 	display: block;
 	margin-top: 10px;
 }
+
+.input-fields {
+	padding-bottom: 20px;
+}
 .input-fields input[type="email"] {
 	margin-bottom: 20px;
 }
 
-.button-login {
+.button-login2 {
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+	width: 100%;
+}
+
+.button-login2 .button-registration,
+.button-login2 .button-login {
+	width: 48%;
 	display: inline-block;
 	cursor: pointer;
-	width: 90%;
+}
+
+.button-login2 .button-registration {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Outfit", sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 15px;
+	border-radius: 60px;
+	background-color: black;
+	transition: background-color 0.5s ease;
+	margin: 5px;
+	width: 100%;
+}
+
+.button-login2 .button-registration:hover {
+	background-color: #fff8c2;
+	color: black;
+}
+
+.button-7 .button-login {
+	justify-content: center;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	border-radius: 60px;
+	background-color: black;
+	transition: background-color 0.5s;
+	transition-timing-function: ease;
+	padding: 12px 30px;
+	font-weight: bold;
+	font-family: "Outfit", sans-serif;
+}
+
+.button-login2 .button-login {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Outfit", sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 15px;
+	border-radius: 60px;
+	background-color: black;
+	transition: background-color 0.5s ease;
+	padding: 12px 30px;
+	margin: 5px;
+}
+
+.button-login2 .button-registration:hover,
+.button-login2 .button-login:hover {
+	background-color: #fff8c2;
+	color: black;
 }
 
 .login-title {
@@ -34,6 +173,12 @@
 .left-img img {
 	display: none;
 }
+
+#registration.registration {
+	display: flex;
+	padding-top: 100px;
+}
+
 .wrapperlogin {
 	padding-top: 0;
 	align-items: center;
@@ -42,6 +187,12 @@
 }
 
 @media screen and (min-width: 768px) {
+	.button-login {
+		display: inline-block;
+		cursor: pointer;
+		width: 90%;
+	}
+
 	h1 {
 		color: #246cc0;
 		font-size: 45px;

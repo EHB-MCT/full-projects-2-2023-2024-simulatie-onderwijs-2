@@ -1,3 +1,87 @@
+.background > div[class^="image"] {
+	transition: transform 0.2s ease-out;
+}
+
+.imagebubblecontact1 {
+	position: absolute;
+	scale: 10%;
+	left: -800px;
+	top: -560px;
+	z-index: 10;
+}
+
+.line1contact {
+	position: absolute;
+	z-index: 8;
+	left: 155px;
+	top: 150px;
+	width: 250px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(18deg);
+	transform-origin: top left;
+}
+
+.imagebubblecontact2 {
+	position: absolute;
+	scale: 10%;
+	left: -550px;
+	top: -480px;
+	z-index: 10;
+}
+
+.line2contact {
+	position: absolute;
+	z-index: -8;
+	left: 415px;
+	top: 235px;
+	width: 920px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(18deg);
+	transform-origin: top left;
+}
+
+.imagebubblecontact3 {
+	position: absolute;
+	scale: 10%;
+	left: 330px;
+	top: -190px;
+	z-index: 10;
+}
+
+.line3contact {
+	position: absolute;
+	z-index: -8;
+	left: 1290px;
+	top: 520px;
+	width: 480px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(135deg);
+	transform-origin: top left;
+}
+
+.imagebubblecontact4 {
+	position: absolute;
+	scale: 10%;
+	left: 12px;
+	top: 140px;
+	z-index: 10;
+}
+
+.line4contact {
+	position: absolute;
+	z-index: -8;
+	left: 960px;
+	top: 850px;
+	width: 150px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(135deg);
+	transform-origin: top left;
+}
+
 body {
 	font-family: "Outfit", sans-serif;
 	background-color: #e4f7f7;
