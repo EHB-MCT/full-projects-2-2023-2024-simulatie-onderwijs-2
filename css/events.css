@@ -1,3 +1,63 @@
+.background > div[class^="image"] {
+	transition: transform 0.2s ease-out;
+}
+
+.imagebubbleevent1 {
+	position: absolute;
+	scale: 10%;
+	left: -630px;
+	top: -595px;
+	z-index: 10;
+}
+
+.line1events {
+	position: absolute;
+	z-index: -8;
+	left: 320px;
+	top: 120px;
+	width: 520px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(1deg);
+	transform-origin: top left;
+}
+
+.imagebubbleevent2 {
+	position: absolute;
+	scale: 10%;
+	left: -120px;
+	top: -585px;
+	z-index: 10;
+}
+
+.line2events {
+	position: absolute;
+	z-index: -8;
+	left: 835px;
+	top: 120px;
+	width: 1999px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(80deg);
+	transform-origin: top left;
+}
+
+.imagebubbleevent3 {
+	position: absolute;
+	scale: 10%;
+	left: 25px;
+	top: 230px;
+	z-index: 10;
+}
+
+.imagebubbleevent4 {
+	position: absolute;
+	scale: 10%;
+	left: 215px;
+	top: 1300px;
+	z-index: 10;
+}
+
 .titel-event h1 {
 	padding-top: 100px;
 	padding-bottom: 100px;
