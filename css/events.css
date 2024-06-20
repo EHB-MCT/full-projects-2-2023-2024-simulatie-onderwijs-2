@@ -35,7 +35,7 @@
 	z-index: -8;
 	left: 835px;
 	top: 120px;
-	width: 1999px;
+	width: 2069px;
 	height: 1px;
 	background-color: grey;
 	transform: rotateZ(80deg);
@@ -45,16 +45,16 @@
 .imagebubbleevent3 {
 	position: absolute;
 	scale: 10%;
-	left: 25px;
-	top: 230px;
-	z-index: 10;
+	left: 35px;
+	top: 290px;
+	z-index: -4;
 }
 
 .imagebubbleevent4 {
 	position: absolute;
 	scale: 10%;
-	left: 215px;
-	top: 1300px;
+	left: 230px;
+	top: 1380px;
 	z-index: 10;
 }
 
