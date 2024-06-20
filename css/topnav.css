@@ -8,14 +8,8 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 40px;
+
 	font-size: 18px;
-	word-spacing: 0.9em;
-}
-.log-in {
-	word-spacing: 0.1em;
-}
-.over-ons {
-	word-spacing: 0.1em;
 }
 
 .topnav h1 {

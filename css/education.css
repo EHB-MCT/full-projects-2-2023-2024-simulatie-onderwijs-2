@@ -13,8 +13,6 @@
 
 .dropdown.desktop-hide {
 	display: none;
-	padding-top: 50px;
-	padding-bottom: 30px;
 }
 
 .button-all-school {
@@ -23,7 +21,6 @@
 	justify-content: center; /* Centreer de knoppen */
 	list-style-type: none;
 	padding: 0;
-	margin-top: 50px;
 }
 
 .button-all-school ul {
@@ -54,10 +51,7 @@
 .button-all-school ul li a:hover {
 	color: black;
 
-	background-color: #b884ff;
-}
-.education h1 {
-	font-size: 30px;
+	background-color: #fff8c2;
 }
 
 /* Media query voor kleine schermen (max-width: 768px) */
@@ -68,6 +62,9 @@
 
 	.button-all-school {
 		display: none; /* Verberg button-all-school op kleine schermen */
+	}
+	body {
+		background-image: url(images/educatie-mobile-background.png);
 	}
 }
 
@@ -81,9 +78,5 @@
 		width: 60%; /* Pas de breedte van de afbeelding aan voor desktop */
 		margin: 0 auto; /* Centreer de afbeelding horizontaal */
 		display: block; /* Zorg ervoor dat de afbeelding als blokelement wordt weergegeven */
-		margin-top: 50px;
-	}
-	.education h1 {
-		font-size: 40px;
 	}
 }

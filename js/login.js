@@ -29,11 +29,33 @@ async function login() {
 		console.log("Login response data:", result);
 		alert("Login successful!");
 
+		// Store the authentication token
 		localStorage.setItem("authToken", result.token);
+
+		// Decode the token to get user details
+		const decodedToken = jwt_decode(result.token);
+		const userId = decodedToken.id; // Assuming the user ID is stored in the token
+		const username = await fetchUsername(userId);
+
+		localStorage.setItem("username", username);
+
+		// Redirect to forum page or reload the current page
+		window.location.href = "forum.html";
 	} catch (error) {
 		console.error("Error details:", error);
 		alert("Error logging in: " + error.message);
 	}
+}
+
+async function fetchUsername(userId) {
+	const response = await fetch(
+		`https://simulatie2.pockethost.io/api/collections/users/records/${userId}`
+	);
+	if (!response.ok) {
+		throw new Error("Failed to fetch user details");
+	}
+	const userData = await response.json();
+	return userData.username; // Adjust this based on the actual field in your API response
 }
 
 function showRegistration() {

@@ -1,37 +1,11 @@
 header {
 	margin: 50px;
 }
-.box-box {
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-}
-.box-in-two {
-	width: 90%;
-	text-align: center;
-	margin-right: 0;
-}
-.box-in-two h3 {
-	text-align: left;
-	width: 100%;
-}
-
-.box-in-two p {
-	text-align: left;
-}
-.photo-simulation img {
-	width: 200px;
-	align-items: center;
-}
-.photo-simulation {
-	align-items: center;
-}
 h2 {
 	margin-top: 80px;
-	margin-bottom: 30px;
 	font-weight: bold;
 	color: #246cc0;
-	font-size: 30px;
+	font-size: 40px;
 	text-align: center;
 	width: 100%;
 }
@@ -48,7 +22,6 @@ p {
 .btn {
 	margin-top: 20px;
 	text-align: left;
-	font: bold;
 }
 
 .btn a {
@@ -66,101 +39,19 @@ p {
 	background-color: #fff8c2;
 }
 
+.box-box {
+}
+
 @media screen and (min-width: 768px) {
 	h2 {
 		text-align: left;
-		margin-left: 125px;
-		font-size: 50px;
 	}
 	p {
 		font-size: 16px;
 	}
-	.btn {
-		font: bolder;
-	}
 	.box-box {
-		display: flex;
-		padding: 50px;
-	}
-	.photo-simulation {
-		width: 70%;
-		height: 70%;
-		display: flex;
-		margin-left: 1px;
-	}
-	.photo-simulation img {
+		margin-left: 700px;
+		margin-top: 50px;
 		width: 600px;
-	}
-	.box-in-two {
-		margin-top: -125px;
-	}
-	.box-in-two h3 p a {
-		width: 45%;
-		text-align: left;
-		margin-top: -100px;
-	}
-	header {
-		margin: 50px;
-		text-align: center;
-	}
-	.box-box {
-		display: flex;
-		flex-direction: row;
-	}
-	.box-in-two {
-		text-align: left;
-		width: 40%;
-		margin-right: 100px;
-	}
-	.box-in-two h3 {
-		text-align: left;
-		margin-top: 150px;
-		width: 100%;
-	}
-
-	.box-in-two p {
-		text-align: left;
-		font-size: 16px;
-	}
-	.photo-simulation img {
-		width: 600px;
-		align-items: center;
-		margin-left: 70px;
-	}
-	.photo-simulation {
-		align-items: center;
-	}
-	h3 {
-		margin-top: 30px;
-		font-weight: bold;
-		color: #246cc0;
-		font-size: 20px;
-	}
-	p {
-		font-weight: 300;
-		font-size: 13px;
-	}
-	.btn {
-		margin-top: 20px;
-		text-align: left;
-		font-weight: bold;
-	}
-
-	.btn a {
-		background-color: black;
-		font-size: 16px;
-		border: none;
-		border-radius: 30px;
-		color: white;
-		display: inline-block;
-		padding: 15px 20px;
-		text-decoration: none;
-	}
-
-	.btn a:hover {
-		background-color: #fff8c2;
-	}
-	.footer {
-		width: 100%;
 	}
 }
