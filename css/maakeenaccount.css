@@ -48,7 +48,7 @@ textarea {
 	padding: 10px;
 	margin-top: 5px;
 	border: 1px solid #ccc;
-	border-radius: 5px;
+	border-radius: 30px;
 }
 
 button {
@@ -67,7 +67,7 @@ button {
 }
 
 button:hover {
-	background-color: #fff8c2;
+	background-color: #b884ff;
 }
 
 @media screen and (min-width: 768px) {
@@ -87,5 +87,6 @@ button:hover {
 	input[type="tel"],
 	textarea {
 		width: 700px;
+		border-radius: 30px;
 	}
 }

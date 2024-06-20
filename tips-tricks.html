@@ -10,8 +10,8 @@
 </head>
 <body>
 	<nav role="navigation">
-		<div class="navigationlogo">
-			<h1>NSH</h1>
+		<div class="navigationlogo mobile">
+			<h1><a href="index.html">NSH</a></h1>
 		</div>
 		<div id="menuToggle">
 			<input type="checkbox" />
@@ -20,26 +20,32 @@
 			<span></span>
 			<span></span>
 
-			<ul id="menu">
+			<ul id="menu" class="hamburgermenu">
 				<a href="index.html"><li>Home</li></a>
 				<a href="overons.html"><li>Over Ons</li></a>
 				<a href="events.html"><li>Events</li></a>
 				<a href="educatie.html"><li>Educatie</li></a>
 				<a href="forum.html" target="_blank"><li>Forum</li></a>
 				<a href="contact.html" target="_blank"><li>Contact</li></a>
-				<a href="login.html" target="_blank"><li>Login</li></a>
+				<a href="login.html" target="_blank"
+					><li>Login <i class="icoonlogin fas fa-user"></i></li
+				></a>
 			</ul>
 		</div>
 	</nav>
 	<div class="topnav">
+		<div class="navigationlogo noMobile">
+			<h1><a href="index.html">NSH</a></h1>
+		</div>
 		<ul>
-			<li><a href="index.html" class="logo">NSH</a></li>
-			<li><a href="overons.html">Over Ons</a></li>
+			<li><a href="OverOns.html" class="over-ons">Over Ons</a></li>
 			<li><a href="events.html">Events</a></li>
 			<li><a href="educatie.html">Educatie</a></li>
 			<li><a href="forum.html">Forum</a></li>
 			<li><a href="contact.html">Contact</a></li>
-			<li><a href="login.html">Log In</a></li>
+			<li>
+				<a href="login.html" class="log-in">Log In <i class="icoonlogin fas fa-user"></i></a>
+			</li>
 		</ul>
 	</div>
 	<header>
@@ -48,18 +54,52 @@
 		</div>
 
 		<div class="box-box">
-			<img src="images/vpk Leuven.jpg" />
-			<h3>Tips om realistische scenario's te creëren</h3>
-			<br />
-			<p>
-				Doelstelling: Wachttijden op de spoedeisende hulp verkorten. Gegevensverzameling: gegevens verzameld over de aankomst-tijden van patiënten, de duur van de behandeling en de personeelsplanning gedurende zes maanden. Modelconstructie: AnyLogic
-				gebruikt om een ​​gedetailleerd model van de Eerste Hulp te bouwen, inclusief patiënttriage, behandelingen ontslagprocessen.
-			</p>
-			<br />
-			<p>Validatie: simulatieresultaten vergeleken met daadwerkelijke ER-prestatiestatistieken. Simulatieruns: meerdere runs uitgevoerdonder verschillende scenario’s (bijvoorbeeld extra personeeltijdens piekuren).</p>
-			<div class="btn">
-				<a href="#">Lees meer tips & tricks</a>
+			<div class="photo-simulation">
+				<img src="css/images/simulatieoefeningtips.jpg" alt="" class="photo-simulation" />
+			</div>
+
+			<div class="box-in-two">
+				<h3>Tips om realistische scenario's te creëren</h3>
+				<br />
+				<p>
+					Doelstelling: Wachttijden op de spoedeisende hulp verkorten. Gegevensverzameling: gegevens verzameld over de aankomst-tijden van patiënten, de duur van de behandeling en de personeelsplanning gedurende zes maanden. Modelconstructie:
+					AnyLogic gebruikt om een ​​gedetailleerd model van de Eerste Hulp te bouwen, inclusief patiënttriage, behandelingen ontslagprocessen.
+				</p>
+				<br />
+				<p>Validatie: simulatieresultaten vergeleken met daadwerkelijke ER-prestatiestatistieken. Simulatieruns: meerdere runs uitgevoerdonder verschillende scenario’s (bijvoorbeeld extra personeeltijdens piekuren).</p>
+				<div class="btn">
+					<a href="#">Lees meer tips & tricks</a>
+				</div>
 			</div>
 		</div>
+		<footer>
+			<div class="footer">
+				<div class="row">
+					<div class="scrollwrapper">
+						<div class="item item1"></div>
+						<div class="item item2"></div>
+						<div class="item item3"></div>
+						<div class="item item4"></div>
+						<div class="item item5"></div>
+						<div class="item item6"></div>
+						<div class="item item7"></div>
+						<div class="item item8"></div>
+						<div class="item item9"></div>
+						<div class="item item10"></div>
+						<div class="item item11"></div>
+					</div>
+					<ul>
+						<li><a href="OverOns.html">Over Ons</a></li>
+						<li><a href="events.html">Events</a></li>
+						<li><a href="educatie.html">Educatie</a></li>
+						<li><a href="forum.html">Forum</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="login.html">Log in</a></li>
+					</ul>
+				</div>
+
+				<div class="row">NSH Copyright © 2024 - All rights reserved</div>
+			</div>
+		</footer>
 	</header>
 </body>
