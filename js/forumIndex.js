@@ -5,10 +5,8 @@ const list = [];
 function fetchData() {
 	console.log("Fetching data...");
 
-	// Clear existing posts
 	document.getElementById("posts").innerHTML = "";
 
-	// Clear the list to avoid duplicates
 	list.length = 0;
 
 	const apiUrl =
@@ -20,10 +18,11 @@ function fetchData() {
 			data.items.forEach((postData) => {
 				const post = new Forum(
 					postData.context,
-					postData.datum,
+					postData.created,
 					postData.titel,
 					postData.img,
-					postData.comments
+					postData.comments,
+					postData.userData
 				);
 				list.push(post);
 			});
@@ -49,10 +48,16 @@ document.addEventListener("DOMContentLoaded", () => {
 	form.addEventListener("submit", (event) => {
 		event.preventDefault();
 		const formData = new FormData(form);
+		const token = localStorage.getItem("token");
+		const decodedToken = jwt_decode(token);
+		const username = decodedToken.userData;
+
 		const data = {
 			titel: formData.get("titel"),
 			context: formData.get("context"),
 			img: formData.get("img"),
+			username: username.get("username"),
+			created: created.get("created"),
 		};
 		postData(data);
 	});
@@ -75,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			})
 			.then((responseData) => {
 				console.log("Success:", responseData);
-				// Fetch the data again to update the list of posts
+
 				fetchData();
 			})
 			.catch((error) => {
