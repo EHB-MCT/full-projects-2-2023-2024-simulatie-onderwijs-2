@@ -156,7 +156,7 @@
 		z-index: 8;
 		left: 600px;
 		top: 485px;
-		width: 255px;
+		width: 285px;
 		height: 1px;
 		background-color: grey;
 		transform: rotateZ(130deg);
@@ -172,7 +172,7 @@
 
 	.line5bubble {
 		position: absolute;
-		z-index: 8;
+		z-index: -8;
 		left: 420px;
 		top: 700px;
 		width: 250px;
@@ -193,9 +193,9 @@
 	.line6bubble {
 		position: absolute;
 		z-index: 8;
-		left: 440px;
-		top: 1050px;
-		width: 250px;
+		left: 540px;
+		top: 1120px;
+		width: 360px;
 		height: 1px;
 		background-color: grey;
 		transform: rotateZ(220deg);
@@ -210,36 +210,12 @@
 		z-index: 10;
 	}
 
-	.line7bubble {
-		position: absolute;
-		z-index: 8;
-		left: 540px;
-		top: 1135px;
-		width: 120px;
-		height: 1px;
-		background-color: grey;
-		transform: rotateZ(220deg);
-		transform-origin: top left;
-	}
-
 	.imagebubble8 {
 		position: absolute;
 		scale: 10%;
 		left: -420px;
 		top: 420px;
 		z-index: 10;
-	}
-
-	.line8bubble {
-		position: absolute;
-		z-index: 8;
-		left: 535px;
-		top: 1135px;
-		width: 198px;
-		height: 1px;
-		background-color: grey;
-		transform: rotateZ(90deg);
-		transform-origin: top left;
 	}
 
 	.deel1 {
