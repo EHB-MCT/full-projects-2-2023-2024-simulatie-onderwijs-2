@@ -4,6 +4,13 @@ nav {
 .title {
 	padding-top: 130px;
 }
+
+.background {
+	width: 100%;
+	z-index: 10;
+	display: block;
+}
+
 .background-image {
 	width: 100%;
 	height: 100%;
@@ -44,10 +51,6 @@ body {
 	padding: 0;
 	background-repeat: no-repeat;
 	background-color: #e4f7f7;
-}
-
-.background {
-	z-index: 10;
 }
 
 .background > div[class^="image"] {
@@ -278,8 +281,14 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+	.background {
+		display: none;
+	}
+	.background-image {
+		display: none;
+	}
 	nav {
-		display: flex;
+		display: block;
 	}
 	.title {
 		padding-top: 30px;
@@ -317,7 +326,8 @@ body {
 	}
 
 	.deel2 {
-		display: block;
+		display: flex;
+		flex-wrap: nowrap;
 		align-items: center;
 		justify-content: center;
 	}
@@ -383,8 +393,17 @@ body {
 	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px) {
 	.background {
+		display: none;
+	}
+	.background-image {
+		display: none;
+	}
+	nav {
+		display: block;
+	}
+	.topnav {
 		display: none;
 	}
 }
