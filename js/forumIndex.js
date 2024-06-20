@@ -4,11 +4,7 @@ const list = [];
 
 function fetchData() {
 	console.log("Fetching data...");
-
-	// Clear existing posts
 	document.getElementById("posts").innerHTML = "";
-
-	// Clear the list to avoid duplicates
 	list.length = 0;
 
 	const apiUrl =
@@ -23,23 +19,33 @@ function fetchData() {
 					postData.datum,
 					postData.titel,
 					postData.img,
-					postData.comments
+					postData.comments,
+					postData.username,
+					postData.created
 				);
 				list.push(post);
 			});
 
-			displayPosts();
+			displayPosts(list);
 		})
 		.catch((error) => {
 			console.error("Error fetching data:", error);
 		});
 }
 
-function displayPosts() {
+function displayPosts(posts) {
 	const container = document.getElementById("posts");
-	list.forEach((post) => {
+	container.innerHTML = "";
+	posts.forEach((post) => {
 		container.innerHTML += post.htmlString;
 	});
+}
+
+function filterPosts(query) {
+	const filteredPosts = list.filter((post) =>
+		post.titel.toLowerCase().includes(query.toLowerCase())
+	);
+	displayPosts(filteredPosts);
 }
 
 fetchData();
@@ -55,6 +61,12 @@ document.addEventListener("DOMContentLoaded", () => {
 			img: formData.get("img"),
 		};
 		postData(data);
+	});
+
+	const searchBar = document.querySelector(".search-bar");
+	searchBar.addEventListener("input", (event) => {
+		const query = event.target.value;
+		filterPosts(query);
 	});
 
 	function postData(data) {
@@ -75,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			})
 			.then((responseData) => {
 				console.log("Success:", responseData);
-				// Fetch the data again to update the list of posts
+
 				fetchData();
 			})
 			.catch((error) => {
