@@ -18,33 +18,33 @@
 .button-all-school {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center; /* Centreer de knoppen */
+	justify-content: center; 
 	list-style-type: none;
 	padding: 0;
 }
 
 .button-all-school ul {
-	display: flex; /* Flexbox toevoegen voor horizontale uitlijning */
-	flex-wrap: wrap; /* Zorg ervoor dat knoppen naar de volgende regel gaan indien nodig */
-	justify-content: center; /* Centreer de knoppen binnen de ul */
-	margin: 10px 0; /* Ruimte tussen de rijen */
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: center; 
+	margin: 10px 0; 
 	padding: 0 10px;
 	list-style: none;
 }
 
 .button-all-school ul li {
-	margin: 10px; /* Ruimte tussen de knoppen */
+	margin: 10px; 
 }
 
 .button-all-school ul li a {
-	display: inline-block; /* Inline-block voor kortere knoppen */
+	display: inline-block; 
 	text-decoration: none;
 	color: white;
 	font-size: 16px;
 	border-radius: 20px;
 	background-color: black;
 	transition: background-color 0.5s ease;
-	padding: 12px 15px; /* Aangepaste padding voor kortere knoppen */
+	padding: 12px 15px; 
 	font-weight: bold;
 }
 
@@ -54,39 +54,59 @@
 	background-color: #fff8c2;
 }
 
-/* Media query voor kleine schermen (max-width: 768px) */
 @media (max-width: 768px) {
 	.dropdown.desktop-hide {
-		display: block; /* Toon de dropdown op kleine schermen */
+		display: block; 
 	}
 
 	.button-all-school {
-		display: none; /* Verberg button-all-school op kleine schermen */
+		display: none; 
+	}
+
+	.map {
+		display: none; 
+	}
+
+	.background {
+		display: none;
+	}
+
+	.map-mobile {
+		display: block;
+	}
+
+	.map-mobile img {
+		padding-top: 50px;
+		width: 100%;
 	}
 }
 
-/* Media query voor grote schermen (min-width: 769px) */
+
 @media (min-width: 769px) {
 	.button-all-school {
-		display: block; /* Toon button-all-school op grote schermen */
+		display: block; 
 	}
 
 	.map img {
-		width: 60%; /* Pas de breedte van de afbeelding aan voor desktop */
-		margin: 0 auto; /* Centreer de afbeelding horizontaal */
-		display: block; /* Zorg ervoor dat de afbeelding als blokelement wordt weergegeven */
+		width: 60%; 
+		margin: 0 auto; 
+		display: block; 
+	}
+
+	.map-mobile {
+		display: none; 
 	}
 }
 
 .line-a {
 	position: absolute;
 	z-index: 8;
-	left: 500px;
-	top: 580px;
-	width: 200px;
+	left: 460px;
+	top: 610px;
+	width: 90px;
 	height: 1px;
 	background-color: grey;
-	transform: rotateZ(-30deg);
+	transform: rotateZ(-40deg);
 	transform-origin: top left;
 }
 
@@ -130,7 +150,6 @@
 	z-index: 10;
 }
 
-
 .image-f {
 	position: absolute;
 	scale: 3%;
@@ -149,7 +168,7 @@
 
 .image-h {
 	position: absolute;
-	scale: 2%;
+	scale: 2.8%;
 	left: -155px;
 	top: -20px;
 	z-index: 10;
@@ -177,4 +196,150 @@
 	left: -240px;
 	top: -100px;
 	z-index: 10;
+}
+
+@keyframes pulsate {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(var(--scale-factor, 1.1)); /* Gebruik een variabele schaalfactor */
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.image-a img,
+.image-b img,
+.image-c img,
+.image-d img,
+.image-e img,
+.image-f img,
+.image-g img,
+.image-h img,
+.image-i img,
+.image-j img,
+.image-k img {
+	animation: pulsate var(--animation-duration, 3s) ease-in-out infinite;
+}
+
+.line-b {
+	position: absolute;
+	z-index: 8;
+	left: 460px;
+	top: 630px;
+	width: 200px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(-8deg);
+	transform-origin: top left;
+}
+
+.line-c {
+	position: absolute;
+	z-index: 8;
+	left: 530px;
+	top: 560px;
+	width: 150px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(12deg);
+	transform-origin: top left;
+}
+
+.line-d {
+	position: absolute;
+	z-index: 8;
+	left: 650px;
+	top: 600px;
+	width: 50px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(12deg);
+	transform-origin: top left;
+}
+
+.line-e {
+	position: absolute;
+	z-index: 8;
+	left: 710px;
+	top: 610px;
+	width: 100px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(38deg);
+	transform-origin: top left;
+}
+
+.line-f {
+	position: absolute;
+	z-index: 8;
+	left: 720px;
+	top: 610px;
+	width: 140px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(-40deg);
+	transform-origin: top left;
+}
+
+.line-g {
+	position: absolute;
+	z-index: 8;
+	left: 820px;
+	top: 530px;
+	width: 50px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(15deg);
+	transform-origin: top left;
+}
+
+.line-h {
+	position: absolute;
+	z-index: 8;
+	left: 820px;
+	top: 530px;
+	width: 230px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(15deg);
+	transform-origin: top left;
+}
+
+.line-i {
+	position: absolute;
+	z-index: 8;
+	left: 1040px;
+	top: 590px;
+	width: 70px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(130deg);
+	transform-origin: top left;
+}
+
+.line-j {
+	position: absolute;
+	z-index: 8;
+	left: 1000px;
+	top: 650px;
+	width: 210px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(170deg);
+	transform-origin: top left;
+}
+
+.line-k {
+	position: absolute;
+	z-index: 8;
+	left: 790px;
+	top: 680px;
+	width: 150px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(-63deg);
+	transform-origin: top left;
 }
