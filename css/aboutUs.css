@@ -1,16 +1,23 @@
 @media screen and (max-width: 1024px) {
+	.deel1 {
+		padding-top: 70px;
+	}
 	.we-are {
 		padding-top: 30px;
 	}
 
 	.we-are img {
 		padding-top: 20px;
-		width: 40%;
+		width: 60%;
 		border-radius: 15%;
+	}
+	.we-are h1 {
+		font-size: 30px;
 	}
 
 	.we-are p {
 		padding-top: 20px;
+		font-weight: 300;
 	}
 
 	.we-are h4 {
@@ -18,8 +25,15 @@
 	}
 
 	.we-do {
-		padding-top: 15px;
+		padding-top: 45px;
 		margin-left: 120px;
+	}
+
+	.we-do h1 {
+		font-size: 30px;
+		width: 100%;
+		margin-right: 90px;
+		margin-top: 30px;
 	}
 
 	.we-do h4 {
@@ -28,17 +42,21 @@
 
 	.we-do p {
 		margin-top: 20px;
+		font-weight: 300;
 	}
 
 	.we-do img {
-		width: 75%;
+		width: 95%;
 		padding-top: 20px;
 		border-radius: 15%;
 	}
 
 	.we-stand {
-		padding-top: 50px;
 		text-align: center;
+	}
+	.title2 h1 {
+		font-size: 30px;
+		padding-top: 60px;
 	}
 
 	.we-stand img {
@@ -47,25 +65,50 @@
 
 	.visie img {
 		padding-top: 30px;
+		margin-left: -300px;
+		width: 15%;
 	}
-
 	.waarden img {
 		padding-top: 30px;
+		margin-left: -280px;
+		width: 20%;
+	}
+	.missie img {
+		padding-top: 30px;
+		margin-left: -280px;
+		width: 20%;
+	}
+
+	.waarden p {
+		text-align: left;
+		font-weight: 300;
+	}
+
+	.visie p {
+		text-align: left;
+		font-weight: 300;
+	}
+	.missie p {
+		text-align: left;
+		font-weight: 300;
 	}
 
 	.missie h5 {
 		padding-bottom: 5px;
 		padding-top: 10px;
+		text-align: left;
 	}
 
 	.visie h5 {
 		padding-bottom: 5px;
 		padding-top: 10px;
+		text-align: left;
 	}
 
 	.waarden h5 {
 		padding-bottom: 5px;
 		padding-top: 10px;
+		text-align: left;
 	}
 
 	.button-4 {
@@ -73,6 +116,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		margin-bottom: -60px;
 	}
 	.button-4 a {
 		display: flex;
@@ -90,11 +134,12 @@
 	}
 	.we-are img {
 		padding-top: 20px;
-		width: 40%;
+		width: 60%;
 		border-radius: 15%;
 	}
 	.we-are p {
 		padding-top: 20px;
+		font-weight: 300;
 	}
 	.we-are h4 {
 		padding-top: 80px;
@@ -103,11 +148,15 @@
 		padding-top: 300px;
 		margin-left: 120px;
 	}
+	.we-do h1 {
+		margin-top: 70px;
+	}
 	.we-do h4 {
 		padding-top: 30px;
 	}
 	.we-do p {
 		margin-top: 20px;
+		font-weight: 300;
 	}
 	.we-do img {
 		width: 75%;
@@ -118,8 +167,11 @@
 		display: flex;
 		justify-content: center;
 	}
+	.title2 h1 {
+		margin-top: 100px;
+	}
 	.we-stand {
-		padding-top: 100px;
+		padding-top: 50px;
 		text-align: left;
 		display: flex;
 		align-items: center;
@@ -137,19 +189,28 @@
 
 	.missie p {
 		width: 80%;
+		font-weight: 300;
 	}
 
 	.waarden {
 		padding-top: 20px;
+		margin-left: 100px;
 	}
 
 	.waarden p {
-		width: 80%;
+		width: 100%;
+		font-weight: 300;
+	}
+	.waarden h5 {
+		margin-top: 20px;
 	}
 
 	.visie {
 		width: auto;
+		font-weight: 300;
+		margin-top: -20px;
 	}
+
 	h5 {
 		padding-bottom: 5px;
 		padding-top: 10px;
@@ -163,7 +224,7 @@
 	}
 
 	footer {
-		padding-top: 30px;
+		padding-top: 100px;
 	}
 	.button-4 {
 		display: flex;

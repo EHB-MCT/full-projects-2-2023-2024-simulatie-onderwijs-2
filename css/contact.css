@@ -8,7 +8,7 @@ body {
 .container {
 	max-width: 300px;
 	margin: 50px auto;
-	padding: 30px;
+	padding: 40px;
 	background-color: #fff;
 	border-radius: 30px;
 }
@@ -17,12 +17,15 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding-top: 100px;
+	padding-top: 70px;
+	font-size: 30px;
+	margin-right: 25px;
 }
 
 label {
 	display: block;
 	margin-top: 10px;
+	font-weight: 300;
 }
 
 input[type="text"],
@@ -36,7 +39,7 @@ textarea {
 	border-style: solid;
 	border-color: rgb(204, 204, 204);
 	border-image: initial;
-	border-radius: 5px;
+	border-radius: 20px;
 }
 
 button {
@@ -55,26 +58,24 @@ button {
 }
 
 button:hover {
-	background-color: #fff8c2;
+	background-color: #b884ff;
 }
 @media screen and (min-width: 768px) {
 	input[type="text"],
 	input[type="email"],
 	input[type="tel"],
 	textarea {
-		width: 750px;
-		margin-top: 5px;
-		padding: 10px;
-		border-width: 1px;
-		border-style: solid;
-		border-color: rgb(204, 204, 204);
-		border-image: initial;
-		border-radius: 5px;
+		width: 650px;
+		border-radius: 20px;
 	}
 	.container {
 		max-width: 800px;
 	}
 	.button-2 {
 		display: flex;
+	}
+	.title-contact h1 {
+		font-size: 50px;
+		margin-right: 425px;
 	}
 }
