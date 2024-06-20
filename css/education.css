@@ -63,9 +63,7 @@
 	.button-all-school {
 		display: none; /* Verberg button-all-school op kleine schermen */
 	}
-	body {
-		background-image: url(images/educatie-mobile-background.png);
-	}
+
 }
 
 /* Media query voor grote schermen (min-width: 769px) */
