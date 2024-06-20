@@ -16,11 +16,12 @@ styling topnav: https://stackoverflow.com/questions/28623446/hover-effect-expand
 dropdown menu schools: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown_hover
 iconen: https://www.w3schools.com/icons/fontawesome5_icons_business.asp
 hier hadden we een scroll functie gebruikt, maar hadden hulp nodig om de bollen effectief groter te maken: https://chatgpt.com/share/fda6cfe8-5903-46c5-864e-3beef8357ed0
+bugfix proberen te fixen met gpt: https://chatgpt.com/share/b1371762-06a2-4cb3-8db9-b4f4a6d08652 https://chatgpt.com/share/befee715-ddd6-4f50-9ded-88856d231fd7
 
 CREDENTIALS:
 
 -Meo: Homepage, educatie (met de 11 scholen dus), over ons en verbeterde pagina gemaakt van de events.
--Eren: Homepage, over ons (mobiele versie) en gezorgd dat de forum, log in en contact us effectief functioneert
+-Eren: Homepage, over ons (mobiele versie) en gezorgd dat de forum, log in, account maken en contact us effectief functioneert
 -Laura: Tips & tricks en contact us (en erna meer gefocust op design)
 -Beatrice: Log in, de forum en de bollen dynamiek gemaakt (en erna meer gefocust op design)
 
