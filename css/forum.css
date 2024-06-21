@@ -1,3 +1,79 @@
+.background > div[class^="image"] {
+	transition: transform 0.2s ease-out;
+}
+
+.imageforum1 {
+	position: absolute;
+	scale: 10%;
+	left: -800px;
+	top: -570px;
+	z-index: 10;
+}
+
+.lineforum1 {
+	position: absolute;
+	z-index: 8;
+	left: 155px;
+	top: 140px;
+	width: 1020px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(45deg);
+	transform-origin: top left;
+}
+
+.imageforum2 {
+	position: absolute;
+	scale: 10%;
+	left: -640px;
+	top: -410px;
+	z-index: 10;
+}
+
+.imageforum3 {
+	position: absolute;
+	scale: 10%;
+	left: -350px;
+	top: -120px;
+	z-index: 10;
+}
+
+.imageforum4 {
+	position: absolute;
+	scale: 10%;
+	left: -80px;
+	top: 150px;
+	z-index: 10;
+}
+
+.lineforum2 {
+	position: absolute;
+	z-index: 8;
+	left: 870px;
+	top: 860px;
+	width: 620px;
+	height: 1px;
+	background-color: grey;
+	transform: rotateZ(80deg);
+	transform-origin: top left;
+}
+
+.imageforum5 {
+	position: absolute;
+	scale: 10%;
+	left: -13px;
+	top: 540px;
+	z-index: 10;
+}
+
+.imageforum6 {
+	position: absolute;
+	scale: 10%;
+	left: 29px;
+	top: 760px;
+	z-index: 10;
+}
+
 .search-container {
 	display: flex;
 	justify-content: center;
