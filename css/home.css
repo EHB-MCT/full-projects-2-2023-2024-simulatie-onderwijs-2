@@ -171,7 +171,7 @@ body {
 	z-index: 10;
 }
 
-.line8 {
+/*.line8 {
 	position: absolute;
 	z-index: -8;
 	left: 340px;
@@ -181,7 +181,7 @@ body {
 	background-color: grey;
 	transform: rotateZ(80deg);
 	transform-origin: top left;
-}
+}*/
 
 .image8 {
 	position: absolute;

@@ -43,7 +43,7 @@ export default class Forum {
                     <img src="${this.images}" alt="docent" />
                 </div>
                 <div class="right-info">
-                    <p>${this.username}</p> <!-- Display the username -->
+
                     <h3>${this.titel}</h3>
                     <p>${this.context}</p>
                     <div class="date-comments">
