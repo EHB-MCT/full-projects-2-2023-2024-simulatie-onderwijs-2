@@ -9,7 +9,10 @@
 		<link rel="stylesheet" href="css/login.css" />
 		<script src="/js/balls.js" defer></script>
 
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+		/>
 		<script src="/js/login.js" defer type="module"></script>
 		<script src="https://cdn.jsdelivr.net/npm/jwt-decode/build/jwt-decode.min.js"></script>
 	</head>
@@ -31,79 +34,103 @@
 				<div class="line1login"></div>
 				<div class="line2login"></div>
 				<div class="line3login"></div>
-
-				<nav role="navigation">
-					<div class="navigationlogo mobile">
-						<a href="index.html"><img src="css/images/LOGO_NSH-removebg.png" alt="NSH Logo" /></a>
-					</div>
-					<div id="menuToggle">
-						<input type="checkbox" />
-						<span></span>
-						<span></span>
-						<span></span>
-						<ul id="menu" class="hamburgermenu">
-							<a href="index.html"><li>Home</li></a>
-							<a href="overons.html"><li>Over Ons</li></a>
-							<a href="events.html"><li>Events</li></a>
-							<a href="educatie.html"><li>Educatie</li></a>
-							<a href="forum.html" target="_blank"><li>Forum</li></a>
-							<a href="contact.html" target="_blank"><li>Contact</li></a>
-							<a href="login.html" target="_blank"><li>Login</li></a>
-						</ul>
-					</div>
-				</nav>
-				<div class="topnav">
-					<div class="navigationlogo noMobile">
-						<a href="index.html"><img src="css/images/LOGO_NSH-removebg.png" alt="NSH Logo" /></a>
-					</div>
-					<ul>
-						<li><a href="overons.html">Over Ons</a></li>
-						<li><a href="events.html">Events</a></li>
-						<li><a href="educatie.html">Educatie</a></li>
-						<li><a href="forum.html">Forum</a></li>
-						<li><a href="contact.html">Contact</a></li>
-						<li>
-							<a href="login.html">Log In <i class="icoonlogin fas fa-user"></i></a>
-						</li>
+			</div>
+			<nav role="navigation">
+				<div class="navigationlogo mobile">
+					<a href="index.html"
+						><img src="css/images/LOGO_NSH-removebg.png" alt="NSH Logo"
+					/></a>
+				</div>
+				<div id="menuToggle">
+					<input type="checkbox" />
+					<span></span>
+					<span></span>
+					<span></span>
+					<ul id="menu" class="hamburgermenu">
+						<a href="index.html"><li>Home</li></a>
+						<a href="overons.html"><li>Over Ons</li></a>
+						<a href="events.html"><li>Events</li></a>
+						<a href="educatie.html"><li>Educatie</li></a>
+						<a href="forum.html" target="_blank"><li>Forum</li></a>
+						<a href="contact.html" target="_blank"><li>Contact</li></a>
+						<a href="login.html" target="_blank"><li>Login</li></a>
 					</ul>
 				</div>
-				<div class="login-welcome">
-					<div class="left-img">
-						<img src="css/images/leerkracht_bord.jpg" alt="uitleg leerkracht" />
-					</div>
-					<div class="right-text">
-						<div class="login-text">
-							<h1 class="login-title">Log in</h1>
-						</div>
-						<div class="input-fields">
-							<input type="email" id="login-email" placeholder="E-mail*" />
-							<input type="password" id="login-password" placeholder="Wachtwoord*" />
-							<a href="#"><p>Je wachtwoord vergeten?</p></a>
-						</div>
-						<div class="button-login2">
-							<button class="button-login" onclick="login()">Log in</button>
-							<button class="button-registration" onclick="showRegistration()">Maak een nieuw account</button>
-						</div>
-					</div>
+			</nav>
+			<div class="topnav">
+				<div class="navigationlogo noMobile">
+					<a href="index.html"
+						><img src="css/images/LOGO_NSH-removebg.png" alt="NSH Logo"
+					/></a>
 				</div>
+				<ul>
+					<li><a href="overons.html">Over Ons</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="educatie.html">Educatie</a></li>
+					<li><a href="forum.html">Forum</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li>
+						<a href="login.html"
+							>Log In <i class="icoonlogin fas fa-user"></i
+						></a>
+					</li>
+				</ul>
 			</div>
-			<div class="registration" id="registration" style="display: none">
+			<div class="login-welcome">
+				<div class="left-img">
+					<img src="css/images/leerkracht_bord.jpg" alt="uitleg leerkracht" />
+				</div>
 				<div class="right-text">
 					<div class="login-text">
-						<h1 class="login-title">Maak een nieuw account</h1>
+						<h1 class="login-title">Log in</h1>
 					</div>
 					<div class="input-fields">
-						<input type="text" id="register-username" placeholder="Gebruikersnaam*" />
-						<input type="email" id="register-email" placeholder="E-mail*" />
-						<input type="password" id="register-password" placeholder="Wachtwoord*" />
-						<input type="password" id="register-password-confirm" placeholder="Bevestig Wachtwoord*" />
+						<input type="email" id="login-email" placeholder="E-mail*" />
+						<input
+							type="password"
+							id="login-password"
+							placeholder="Wachtwoord*"
+						/>
+						<a href="#"><p>Je wachtwoord vergeten?</p></a>
 					</div>
-					<div class="button-7">
-						<button class="button-login" onclick="register()">Registreren</button>
+					<div class="button-login2">
+						<button class="button-login" onclick="login()">Log in</button>
+						<button class="button-registration" onclick="showRegistration()">
+							Maak een nieuw account
+						</button>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="registration" id="registration" style="display: none">
+			<div class="right-text">
+				<div class="login-text">
+					<h1 class="login-title">Maak een nieuw account</h1>
+				</div>
+				<div class="input-fields">
+					<input
+						type="text"
+						id="register-username"
+						placeholder="Gebruikersnaam*"
+					/>
+					<input type="email" id="register-email" placeholder="E-mail*" />
+					<input
+						type="password"
+						id="register-password"
+						placeholder="Wachtwoord*"
+					/>
+					<input
+						type="password"
+						id="register-password-confirm"
+						placeholder="Bevestig Wachtwoord*"
+					/>
+				</div>
+				<div class="button-7">
+					<button class="button-login" onclick="register()">Registreren</button>
+				</div>
+			</div>
+		</div>
+
 		<footer>
 			<div class="footer">
 				<div class="row">

@@ -250,8 +250,22 @@
 	}
 }
 
-@media screen and (max-width: 748px) {
+@media screen and (max-width: 768px) {
 	.button-7 a {
 		margin: 10px 0;
+	}
+	.right-text {
+		height: 50vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	.login-title {
+		margin-right: 0px;
+	}
+	#registration.registration {
+		padding: 0;
 	}
 }
